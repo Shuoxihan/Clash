@@ -1,0 +1,10 @@
+  #   > ViuTV
+  - DOMAIN-SUFFIX,viu.com,VIU
+  - DOMAIN-SUFFIX,viu.tv,VIU
+  - DOMAIN-SUFFIX,viu.now.com,VIU
+  - DOMAIN,api.viu.now.com,VIU
+  - DOMAIN,um.viuapi.io,VIU
+  - DOMAIN,viu-static.akamaized.net,VIU
+  - DOMAIN,d1k2us671qcoau.cloudfront.net,VIU
+  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,VIU
+  - DOMAIN,dfp6rglgjqszk.cloudfront.net,VIU
