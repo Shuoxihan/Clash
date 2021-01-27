@@ -1,3 +1,4 @@
+payload:
   # > LINE
   - DOMAIN-SUFFIX,lin.ee,LINE
   - DOMAIN-SUFFIX,line.naver.jp,LINE
