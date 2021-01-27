@@ -1,0 +1,27 @@
+  # > Yandex
+  - DOMAIN-SUFFIX,yandex.com
+  - DOMAIN-SUFFIX,yandex.ru
+  - DOMAIN-SUFFIX,yandex.net
+  - DOMAIN-SUFFIX,yastatic.net
+  - DOMAIN-SUFFIX,yandex.st
+  - DOMAIN-SUFFIX,webvisor.com
+  - DOMAIN-SUFFIX,yadro.ru
+  - DOMAIN-SUFFIX,rambler.ru
+  - DOMAIN-SUFFIX,stats.mos.ru
+  - DOMAIN-SUFFIX,adfox.ru
+  - DOMAIN-SUFFIX,rutarget.ru
+  - DOMAIN-SUFFIX,yoomoney.ru
+  - DOMAIN-SUFFIX,kinopoisk.ru
+  - DOMAIN-SUFFIX,yookassa.ru
+  - DOMAIN,dmg.digitaltarget.ru
+  - DOMAIN,ssp.adriver.ru
+  - DOMAIN,mc.admetrica.ru
+  - DOMAIN,yandex.ocsp-responder.com
+  - DOMAIN,yandex-news.clstorage.net
+  - DOMAIN,yandex-images.naydex.net
+  - DOMAIN,yandex-video.naydex.net
+  - DOMAIN,yandex-question.naydex.net
+  - DOMAIN,kinopoisk-ru.naydex.net
+  - DOMAIN,yandex-pogoda.clstorage.net
+  - DOMAIN-SUFFIX,naydex.net
+  - DOMAIN-KEYWORD,yandex
