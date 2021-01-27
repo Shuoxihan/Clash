@@ -1,7 +1,8 @@
- - DOMAIN-SUFFIX,ampproject.org,Proxy
+payload:
   # > 域名部分
+  - DOMAIN-SUFFIX,ampproject.org,Proxy  
   - DOMAIN-SUFFIX,abc.xyz,Google
-  - DOMAIN-SUFFIX,android.com,Google
+  - DOMAIN-SUFFIX,android.com,Google  
   - DOMAIN-SUFFIX,androidify.com,Google
   - DOMAIN-SUFFIX,dialogflow.com,Google
   - DOMAIN-SUFFIX,autodraw.com,Google
