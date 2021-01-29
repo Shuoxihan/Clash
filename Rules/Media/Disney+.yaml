@@ -1,0 +1,32 @@
+# > Disney+
+# user-agent,Disney*
+# user-agent,DPlus*
+DOMIAN-KEYWORD,disneyplus
+DOMAIN-SUFFIX,cdn.registerdisney.go.com
+DOMAIN-SUFFIX,cdn.cdn.unid.go.com
+DOMAIN-SUFFIX,content-ause1-ur-discovery1.uplynk.com
+DOMAIN-SUFFIX,disco-api.com
+DOMAIN-SUFFIX,discoveryplus.com
+DOMAIN-SUFFIX,disney.my.sentry.io
+DOMAIN-SUFFIX,adobedtm.com
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,bam.nr-data.net
+DOMAIN-SUFFIX,braze.com
+DOMAIN-SUFFIX,conviva.com
+DOMAIN-SUFFIX,cdn.optimizely.com
+DOMAIN-SUFFIX,cdn.registerdisney.go.com
+DOMAIN-SUFFIX,cws.conviva.com
+DOMAIN-SUFFIX,d9.flashtalking.com
+DOMAIN-SUFFIX,disney.demdex.net
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
+DOMAIN-SUFFIX,disney-portal.my.onetrust.com
+DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,fwmrm.net
+DOMAIN-SUFFIX,getblueshift.com
+DOMAIN-SUFFIX,litix.io
+DOMAIN-SUFFIX,mobile-collector.newrelic.com
+DOMAIN-SUFFIX,uplynk.com
+DOMAIN-SUFFIX,js-agent.newrelic.com
