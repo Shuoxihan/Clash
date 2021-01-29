@@ -1,4 +1,5 @@
-  # > Amazon
+payload:
+# > Amazon
   # user-agent,InstantVideo.US*
   # user-agent,Prime%20Video*
 DOMAIN,atv-ps.amazon.com
