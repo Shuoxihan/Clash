@@ -1,0 +1,2494 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: false
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true        # set true to enable dns (default is false)
+  ipv6: false         # default is false
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5       
+  fallback:
+    - 1.1.1.1                      # concurrent request with nameserver, 
+    - 8.8.8.8                            # fallback used when GEOIP country isn't CN    
+  fallback-filter:  
+    geoip: true
+cfw-bypass:
+  - qq.com
+  - music.163.com
+  - localhost
+  - 127.*
+  - 10.*
+  - 172.16.*
+  - 172.17.*
+  - 172.18.*
+  - 172.19.*
+  - 172.20.*
+  - 172.21.*
+  - 172.22.*
+  - 172.23.*
+  - 172.24.*
+  - 172.25.*
+  - 172.26.*
+  - 172.27.*
+  - 172.28.*
+  - 172.29.*
+  - 172.30.*
+  - 172.31.*
+  - 192.168.*
+  - <local>
+cfw-latency-timeout: 3000
+proxies:
+  - name: 香港 01
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9300"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 香港 02
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9305"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 香港 03
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9310"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 香港 04
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9315"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 香港 05
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9320"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 香港 06
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9325"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 香港 07
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9330"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 香港 08
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9335"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 香港 09
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9340"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 香港 10
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9345"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 香港 11
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9350"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 美国 01
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9100"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 美国 02
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9105"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 美国 03
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9110"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 美国 04
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9115"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 美国 05
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9120"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 美国 06
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9125"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 美国 07
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9130"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 美国 08
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9135"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 美国 09
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9140"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 美国 10
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9145"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 美国 11
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9150"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 美国 12
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9155"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 美国 13
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9160"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 日本 01
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9002"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 日本 02
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9005"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 日本 03
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9010"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 日本 04
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9015"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 日本 05
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9020"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 日本 06
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9025"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 日本 07
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9030"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 日本 08
+    type: ss
+    server: jiaweig.globalnodes.net
+    port: "9035"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 台湾 01
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9355"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 台湾 02
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9360"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 台湾 03
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9365"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 台湾 04
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9370"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 台湾 05
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9375"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 新加坡 01
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9380"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 新加坡 02
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9385"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 新加坡 03
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9390"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+  - name: 新加坡 04
+    type: ss
+    server: vachyrh.globalnodes.net
+    port: "9395"
+    cipher: chacha20-ietf
+    password: AmyTelecom_11451419I981O
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 30345-7gRX70nbw8.download.microsoft.com
+      #
+  - {name: Asia丨以色列丨原生丨中繼, server: sdcu500m.tagsubs.xyz, port: 3113, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇮🇩 Asia丨印尼丨原生丨中繼, server: sdcu500m.tagsubs.xyz, port: 3236, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇮🇳 Asia丨印度丨原生丨中繼, server: qzcm.tagsubs.xyz, port: 1262, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇨🇳 Asia丨台灣01丨原生丨專線, server: gdcm500.tagsubs.xyz, port: 666, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇨🇳 Asia丨台灣02丨原生丨中繼, server: sdcu500m.tagsubs.xyz, port: 1168, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇨🇳 Asia丨台灣03丨原生丨專線, server: gdcm500.tagsubs.xyz, port: 6231, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇨🇳 Asia丨台灣04丨原生丨專線, server: gxcm.tagsubs.xyz, port: 1016, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇹🇷 Asia丨土耳其丨原生丨專線, server: gxcm.tagsubs.xyz, port: 1018, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇸🇬 Asia丨新加坡01丨原生丨專線, server: gdcm500.tagsubs.xyz, port: 444, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇸🇬 Asia丨新加坡02丨原生丨中繼, server: qzcm.tagsubs.xyz, port: 1391, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇸🇬 Asia丨新加坡03丨原生丨中繼, server: sdcu500m.tagsubs.xyz, port: 997, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇸🇬 Asia丨新加坡04丨原生丨專線, server: gdcm500.tagsubs.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇸🇬 Asia丨新加坡05丨原生丨中繼, server: sdcu500m.tagsubs.xyz, port: 3721, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇸🇬 Asia丨新加坡06丨原生丨專線, server: gxcm.tagsubs.xyz, port: 1011, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇸🇬 Asia丨新加坡07丨原生丨專線, server: gxcm.tagsubs.xyz, port: 1019, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇸🇬 Asia丨新加坡08丨原生丨中繼, server: sdcu500m.tagsubs.xyz, port: 7914, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇯🇵 Asia丨日本01丨解鎖丨專線, server: gdcm500.tagsubs.xyz, port: 1031, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇯🇵 Asia丨日本02丨解鎖丨中繼, server: sdcu500m.tagsubs.xyz, port: 402, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇯🇵 Asia丨日本03丨解鎖丨專線, server: gdcm500.tagsubs.xyz, port: 8041, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇯🇵 Asia丨日本04丨解鎖丨專線, server: gdcm500.tagsubs.xyz, port: 2021, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇯🇵 Asia丨日本05丨解鎖丨中繼, server: sdcu500m.tagsubs.xyz, port: 12822, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇯🇵 Asia丨日本06丨原生丨專線, server: gxcm.tagsubs.xyz, port: 1012, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: Asia丨柬埔寨丨原生丨專線, server: gxcm.tagsubs.xyz, port: 6113, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: Asia丨泰國丨原生丨專線, server: gdcm500.tagsubs.xyz, port: 18159, type: ssr, cipher: aes-256-cfb, password: UVfwHtnPYYBRnfKp, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: Asia丨澳門丨原生丨專線, server: gdcm500.tagsubs.xyz, port: 50221, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: Asia丨菲律賓丨原生丨專線, server: gdcm500.tagsubs.xyz, port: 8946, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇻🇳 Asia丨越南丨原生丨專線, server: gdcm500.tagsubs.xyz, port: 9249, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇰🇷 Asia丨韓國01丨解鎖丨專線, server: zjbgp200.tagsubs.xyz, port: 777, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇰🇷 Asia丨韓國02丨解鎖丨中繼, server: qzcm.tagsubs.xyz, port: 8621, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇰🇷 Asia丨韓國03丨原生丨專線, server: zjbgp200.tagsubs.xyz, port: 4137, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇰🇷 Asia丨韓國04丨解鎖丨專線, server: gxcm.tagsubs.xyz, port: 1014, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇭🇰 Asia丨香港01丨原生丨專線, server: gdcm500.tagsubs.xyz, port: 18323, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇭🇰 Asia丨香港02丨原生丨專線, server: gdcm500.tagsubs.xyz, port: 999, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇭🇰 Asia丨香港03丨原生丨專線, server: gxcm.tagsubs.xyz, port: 1024, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇭🇰 Asia丨香港04丨原生丨中繼, server: qzcm.tagsubs.xyz, port: 400, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇭🇰 Asia丨香港05丨原生丨中繼, server: qzcm.tagsubs.xyz, port: 401, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇭🇰 Asia丨香港06丨原生丨中繼, server: qzcm.tagsubs.xyz, port: 2251, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇭🇰 Asia丨香港07丨解鎖丨中繼, server: sdcu500m.tagsubs.xyz, port: 6384, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇭🇰 Asia丨香港08丨解鎖丨專線, server: gdcm500.tagsubs.xyz, port: 9527, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: Asia丨馬來西亞01丨原生丨專線, server: gdcm500.tagsubs.xyz, port: 21183, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: Asia丨馬來西亞02丨原生丨中繼, server: qzcm.tagsubs.xyz, port: 5884, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: Asia丨馬來西亞03丨原生丨專線, server: gxcm.tagsubs.xyz, port: 1013, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇷🇺 Euro丨俄羅斯丨原生丨專線, server: zjbgp200.tagsubs.xyz, port: 1038, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: Euro丨匈牙利丨原生丨中繼, server: sdcu500m.tagsubs.xyz, port: 7913, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇩🇪 Euro丨德國丨原生丨中繼, server: sdcu500m.tagsubs.xyz, port: 405, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: Euro丨愛爾蘭丨原生丨中繼, server: sdcu500m.tagsubs.xyz, port: 4766, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: Euro丨捷克丨原生丨中繼, server: qzcm.tagsubs.xyz, port: 1092, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: Euro丨法國丨原生丨中繼, server: qzcm.tagsubs.xyz, port: 8824, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇨🇭 Euro丨瑞士丨原生丨中繼, server: qzcm.tagsubs.xyz, port: 1852, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇬🇧 Euro丨英國丨原生丨中繼, server: sdcu500m.tagsubs.xyz, port: 511, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: Euro丨荷蘭丨原生丨中繼, server: sdcu500m.tagsubs.xyz, port: 1826, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇧🇷 Lame丨巴西丨特殊丨中繼, server: qzcm.tagsubs.xyz, port: 6716, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇦🇷 Lame丨阿根廷丨特殊丨中繼, server: qzcm.tagsubs.xyz, port: 20055, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇨🇦 Name丨加拿大丨原生丨中繼, server: qzcm.tagsubs.xyz, port: 522, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇺🇸 Name丨美國01丨原生丨中繼, server: sdcu500m.tagsubs.xyz, port: 406, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇺🇸 Name丨美國02丨原生丨專線, server: gdcm500.tagsubs.xyz, port: 1629, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇺🇸 Name丨美國03丨原生丨中繼, server: qzcm.tagsubs.xyz, port: 38941, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: 🇺🇸 Name丨美國04丨原生丨專線, server: gxcm.tagsubs.xyz, port: 1015, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+  - {name: Ocea丨澳大利亞丨原生丨中繼, server: sdcu500m.tagsubs.xyz, port: 403, type: ssr, cipher: aes-256-cfb, password: V2efLnR3SJZr, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 301111:OFsedw, obfs-param: a9115301111.microsoft.com}
+proxy-groups:
+  - name: Foreign🌎
+    type: select
+    proxies:
+      - 日本 05
+      - 🇯🇵 Asia丨日本06丨原生丨專線
+      - 美国 06
+      - 🇨🇦 Name丨加拿大丨原生丨中繼
+      - 🇷🇺 Euro丨俄羅斯丨原生丨專線
+      - 台湾 05
+      - 🇯🇵 Asia丨日本01丨解鎖丨專線
+      - 🇯🇵 Asia丨日本02丨解鎖丨中繼
+      - 🇯🇵 Asia丨日本03丨解鎖丨專線
+      - 🇯🇵 Asia丨日本04丨解鎖丨專線
+      - 🇯🇵 Asia丨日本05丨解鎖丨中繼
+      - 日本 06
+      - 日本 01
+      - 日本 02
+      - 日本 03
+      - 日本 04
+      - 日本 07
+      - 日本 08
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 05
+      - 香港 06
+      - 香港 07
+      - 香港 08
+      - 香港 09
+      - 香港 10
+      - 香港 11
+      - 美国 01
+      - 美国 02
+      - 美国 03
+      - 美国 04
+      - 美国 05
+      - 美国 07
+      - 美国 08
+      - 美国 09
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 台湾 01
+      - 台湾 02
+      - 台湾 03
+      - 台湾 04
+      - 新加坡 01
+      - 新加坡 02
+      - 新加坡 03
+      - 新加坡 04
+      - Asia丨以色列丨原生丨中繼
+      - 🇮🇩 Asia丨印尼丨原生丨中繼
+      - 🇮🇳 Asia丨印度丨原生丨中繼
+      - 🇨🇳 Asia丨台灣01丨原生丨專線
+      - 🇨🇳 Asia丨台灣02丨原生丨中繼
+      - 🇨🇳 Asia丨台灣03丨原生丨專線
+      - 🇨🇳 Asia丨台灣04丨原生丨專線
+      - 🇹🇷 Asia丨土耳其丨原生丨專線
+      - 🇸🇬 Asia丨新加坡01丨原生丨專線
+      - 🇸🇬 Asia丨新加坡02丨原生丨中繼
+      - 🇸🇬 Asia丨新加坡03丨原生丨中繼
+      - 🇸🇬 Asia丨新加坡04丨原生丨專線
+      - 🇸🇬 Asia丨新加坡05丨原生丨中繼
+      - 🇸🇬 Asia丨新加坡06丨原生丨專線
+      - 🇸🇬 Asia丨新加坡07丨原生丨專線
+      - 🇸🇬 Asia丨新加坡08丨原生丨中繼
+      - Asia丨柬埔寨丨原生丨專線
+      - Asia丨泰國丨原生丨專線
+      - Asia丨澳門丨原生丨專線
+      - Asia丨菲律賓丨原生丨專線
+      - 🇻🇳 Asia丨越南丨原生丨專線
+      - 🇰🇷 Asia丨韓國01丨解鎖丨專線
+      - 🇰🇷 Asia丨韓國02丨解鎖丨中繼
+      - 🇰🇷 Asia丨韓國03丨原生丨專線
+      - 🇰🇷 Asia丨韓國04丨解鎖丨專線
+      - 🇭🇰 Asia丨香港01丨原生丨專線
+      - 🇭🇰 Asia丨香港02丨原生丨專線
+      - 🇭🇰 Asia丨香港03丨原生丨專線
+      - 🇭🇰 Asia丨香港04丨原生丨中繼
+      - 🇭🇰 Asia丨香港05丨原生丨中繼
+      - 🇭🇰 Asia丨香港06丨原生丨中繼
+      - 🇭🇰 Asia丨香港07丨解鎖丨中繼
+      - 🇭🇰 Asia丨香港08丨解鎖丨專線
+      - Asia丨馬來西亞01丨原生丨專線
+      - Asia丨馬來西亞02丨原生丨中繼
+      - Asia丨馬來西亞03丨原生丨專線
+      - Euro丨匈牙利丨原生丨中繼
+      - 🇩🇪 Euro丨德國丨原生丨中繼
+      - Euro丨愛爾蘭丨原生丨中繼
+      - Euro丨捷克丨原生丨中繼
+      - Euro丨法國丨原生丨中繼
+      - 🇨🇭 Euro丨瑞士丨原生丨中繼
+      - 🇬🇧 Euro丨英國丨原生丨中繼
+      - Euro丨荷蘭丨原生丨中繼
+      - 🇧🇷 Lame丨巴西丨特殊丨中繼
+      - 🇦🇷 Lame丨阿根廷丨特殊丨中繼
+      - 🇺🇸 Name丨美國01丨原生丨中繼
+      - 🇺🇸 Name丨美國02丨原生丨專線
+      - 🇺🇸 Name丨美國03丨原生丨中繼
+      - 🇺🇸 Name丨美國04丨原生丨專線
+      - Ocea丨澳大利亞丨原生丨中繼
+  - name: Google🇺🇲🇯🇵🇨🇦
+    type: select
+    proxies:
+      - 日本 05
+      - 🇯🇵 Asia丨日本06丨原生丨專線
+      - Foreign🌎
+      - 美国 06
+      - 🇨🇦 Name丨加拿大丨原生丨中繼
+      - 台湾 05
+      - 🇯🇵 Asia丨日本01丨解鎖丨專線
+      - 🇯🇵 Asia丨日本02丨解鎖丨中繼
+      - 🇯🇵 Asia丨日本03丨解鎖丨專線
+      - 🇯🇵 Asia丨日本04丨解鎖丨專線
+      - 🇯🇵 Asia丨日本05丨解鎖丨中繼
+      - 日本 06
+      - 日本 01
+      - 日本 02
+      - 日本 03
+      - 日本 04
+      - 日本 07
+      - 日本 08
+  - name: LINE🇯🇵
+    type: select
+    proxies:
+      - 日本 05
+      - 🇯🇵 Asia丨日本06丨原生丨專線
+      - Google🇺🇲🇯🇵🇨🇦
+      - Foreign🌎
+      - 日本 06
+      - 日本 01
+      - 日本 02
+      - 日本 03
+      - 日本 04
+      - 日本 07
+      - 日本 08
+  - name: Scholar📖
+    type: select
+    proxies:
+      - Foreign🌎
+      - DIRECT
+      - 台湾 01
+      - 台湾 02
+      - 台湾 03
+      - 台湾 04
+      - 美国 05
+      - 美国 06
+      - 美国 07
+      - 美国 08
+      - 美国 09
+  - name: Hulu🇺🇲
+    type: select
+    proxies:
+      - 美国 01
+      - 美国 02
+      - 美国 03
+      - 美国 04
+      - 美国 05
+      - 美国 06
+      - 美国 07
+      - 美国 08
+      - 美国 09
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+  - name: Disney+🇺🇲
+    type: select
+    proxies:
+      - Hulu🇺🇲
+  - name: Netflix📽️
+    type: select
+    proxies:
+      - 台湾 01
+      - 🇨🇦 Name丨加拿大丨原生丨中繼
+      - 美国 01
+      - 美国 02
+      - 美国 03
+      - 美国 04
+      - 美国 05
+      - 美国 06
+      - 美国 07
+      - 美国 08
+      - 美国 09
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 台湾 02
+      - 台湾 03
+      - 台湾 04
+      - 台湾 05
+      - 新加坡 01
+      - 新加坡 02
+      - 新加坡 03
+      - 新加坡 04
+  - name: Amazon⛰️
+    type: select
+    proxies:
+      - 美国 05
+      - 美国 06
+      - 美国 07
+      - 美国 08
+      - 美国 09
+      - 美国 10
+      - 新加坡 01
+      - 美国 01
+      - 美国 02
+      - 美国 03
+      - 美国 04
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - Foreign🌎
+      - 新加坡 02
+      - 新加坡 03
+      - 新加坡 04
+  - name: Spotify🎶
+    type: select
+    proxies:
+      - 香港 06
+      - 動畫瘋🏂
+      - Asia丨菲律賓丨原生丨專線
+      - 🇷🇺 Euro丨俄羅斯丨原生丨專線
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 05
+      - 香港 07
+      - 香港 08
+      - 香港 09
+      - 香港 10
+      - 香港 11
+  - name: Yandex🇷🇺
+    type: select
+    proxies:
+      - 🇷🇺 Euro丨俄羅斯丨原生丨專線
+      - Foreign🌎
+      - 香港 08
+      - DIRECT
+      - 香港 09
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 05
+      - 香港 06
+      - 香港 07
+      - 香港 10
+      - 香港 11
+  - name: JOOX🇭🇰
+    type: select
+    proxies:
+      - 香港 08
+      - 香港 09
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 05
+      - 香港 06
+      - 香港 07
+      - 香港 10
+      - 香港 11
+  - name: 動畫瘋🏂
+    type: select
+    proxies:
+      - 台湾 01
+      - 🇨🇳 Asia丨台灣01丨原生丨專線
+      - 🇨🇳 Asia丨台灣02丨原生丨中繼
+      - 🇨🇳 Asia丨台灣03丨原生丨專線
+      - 🇨🇳 Asia丨台灣04丨原生丨專線
+      - 台湾 02
+      - 台湾 03
+      - 台湾 04
+      - 台湾 05
+  - name: KKTV🧚
+    type: select
+    proxies:
+      - 動畫瘋🏂
+  - name: KKBOX🎧
+    type: select
+    proxies:
+      - 動畫瘋🏂
+  - name: Pandora🇺🇲
+    type: select
+    proxies:
+      - 美国 05
+      - 美国 06
+      - 美国 07
+      - 美国 08
+      - 美国 09
+      - 美国 10
+      - 美国 01
+      - 美国 02
+      - 美国 03
+      - 美国 04
+      - 美国 11
+      - 美国 12
+      - 美国 13
+  - name: Telegram🦸
+    type: select
+    proxies:
+      - Google🇺🇲🇯🇵🇨🇦
+      - 台湾 05
+  - name: Facebook🐳
+    type: select
+    proxies:
+      - Google🇺🇲🇯🇵🇨🇦
+      - Foreign🌎
+      - 日本 05
+      - 日本 06
+      - 日本 01
+      - 日本 02
+      - 日本 03
+      - 日本 04
+      - 日本 07
+      - 日本 08
+  - name: VIU🇭🇰
+    type: select
+    proxies:
+      - 香港 05
+      - 香港 06
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 07
+      - 香港 08
+      - 香港 09
+      - 香港 10
+      - 香港 11
+  - name: SoundCloud🇩🇪
+    type: select
+    proxies:
+      - 🇩🇪 Euro丨德國丨原生丨中繼
+      - 美国 05
+      - 🇨🇦 Name丨加拿大丨原生丨中繼
+      - 美国 06
+      - Foreign🌎
+      - 美国 07
+      - 美国 08
+      - 美国 09
+      - 美国 10
+      - 美国 01
+      - 美国 02
+      - 美国 03
+      - 美国 04
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 05
+      - 香港 06
+      - 香港 07
+      - 香港 08
+      - 香港 09
+      - 香港 10
+      - 香港 11
+  - name: Microsoft🖥️
+    type: select
+    proxies:
+      - DIRECT
+      - Foreign🌎
+  - name: PayPal💵
+    type: select
+    proxies:
+      - DIRECT
+  - name: APPLE🍏
+    type: select
+    proxies:
+      - DIRECT
+      - Foreign🌎
+  - name: HomeLand🇨🇳
+    type: select
+    proxies:
+      - DIRECT
+  - name: 霓虹国🇯🇵
+    type: select
+    proxies:
+      - 日本 05
+      - LINE🇯🇵
+      - Google🇺🇲🇯🇵🇨🇦
+      - Foreign🌎
+      - 日本 06
+      - 日本 01
+      - 日本 02
+      - 日本 03
+      - 日本 04
+      - 日本 07
+      - 日本 08  
+  - name: 乌拉🇷🇺
+    type: select
+    proxies: 
+      - 🇷🇺 Euro丨俄羅斯丨原生丨專線
+      - Yandex🇷🇺
+      - Foreign🌎
+  - name: Final🌏
+    type: select
+    proxies:
+      - Foreign🌎
+rules:
+  # 跟踪器 Track & Privacy
+  - DOMAIN-SUFFIX,cnzz.com,REJECT
+  - DOMAIN,m.reachmax.cn,REJECT
+  - DOMAIN,track.tiara.daum.net,REJECT
+  - DOMAIN,track.tiara.kakao.com,REJECT
+  - DOMAIN,zgsdk.zhugeio.com,REJECT
+  # > 知乎
+  - DOMAIN,appcloud2.zhihu.com,REJECT
+  - DOMAIN,appcloud2.in.zhihu.com,REJECT
+  - DOMAIN,sugar.zhihu.com,REJECT
+  - DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
+  - IP-CIDR,118.89.204.198/32,REJECT,no-resolve
+  # > 51.LA
+  - DOMAIN,js.users.51.la,REJECT
+  - DOMAIN,mc.51.la,REJECT
+  - DOMAIN,wc.51.la,REJECT
+  # > 58
+  - DOMAIN,track.58.com,REJECT
+  - DOMAIN,tracklog.58.com,REJECT
+  # > 百度
+  - DOMAIN,hm.baidu.com,REJECT
+  - DOMAIN,hmma.baidu.com,REJECT
+  - DOMAIN,gsp0.baidu.com,REJECT
+  - DOMAIN,als.baidu.com,REJECT
+  - DOMAIN,nsclick.baidu.com,REJECT
+  # > 腾讯
+  - DOMAIN-SUFFIX,trace.qq.com,REJECT
+  - DOMAIN-SUFFIX,scorecardresearch.com,REJECT
+  - DOMAIN,btrace.qq.com,REJECT
+  - DOMAIN,btrace.video.qq.com,REJECT
+  - DOMAIN,mtrace.qq.com,REJECT
+  - DOMAIN,safebrowsing.urlsec.qq.com,REJECT
+  # > Umeng
+  - DOMAIN-KEYWORD,log.umeng.com,REJECT
+  - DOMAIN-KEYWORD,logs.umeng.com,REJECT
+  - DOMAIN-KEYWORD,logs.umengcloud.com,REJECT
+  # > 字节跳动
+  - DOMAIN,log.byteoversea.com,REJECT
+  - DOMAIN,log.tiktokv.com,REJECT
+  - DOMAIN,log-hl-ipv6.snssdk.com,REJECT
+  - DOMAIN,log-lq.snssdk.com,REJECT
+  - DOMAIN,log-va.tiktokv.com,REJECT
+  - DOMAIN,xlog.snssdk.com,REJECT
+  # > Google
+  - DOMAIN-SUFFIX,googletagmanager.com,REJECT
+  - DOMAIN-SUFFIX,google-analytics.com,REJECT
+  # - DOMAIN-SUFFIX,googlesyndication.com,REJECT
+  # - DOMAIN,safebrowsing.googleapis.com,REJECT
+
+  # 广告
+  # > General
+  - DOMAIN-KEYWORD,adservice,REJECT
+
+  - DOMAIN-SUFFIX,1phads.com,REJECT
+  - DOMAIN-SUFFIX,1rtb.com,REJECT
+  - DOMAIN-SUFFIX,1xl.co.uk,REJECT
+  - DOMAIN-SUFFIX,206ads.com,REJECT
+  - DOMAIN-SUFFIX,3cinteractive.com,REJECT
+  - DOMAIN-SUFFIX,4mads.com,REJECT
+  - DOMAIN-SUFFIX,5rocks.io,REJECT
+  - DOMAIN-SUFFIX,a.ki,REJECT
+  - DOMAIN-SUFFIX,a8.net,REJECT
+  - DOMAIN-SUFFIX,a9.com,REJECT
+  - DOMAIN-SUFFIX,a-ads.com,REJECT
+  - DOMAIN-SUFFIX,aarki.com,REJECT
+  - DOMAIN-SUFFIX,aarki.net,REJECT
+  - DOMAIN-SUFFIX,abtasty.com,REJECT
+  - DOMAIN-SUFFIX,acento.com,REJECT
+  - DOMAIN-SUFFIX,actionads.ru,REJECT
+  - DOMAIN-SUFFIX,actionpay.ru,REJECT
+  - DOMAIN-SUFFIX,ad.gt,REJECT
+  - DOMAIN-SUFFIX,ad1.ru,REJECT
+  - DOMAIN-SUFFIX,ad120m.com,REJECT
+  - DOMAIN-SUFFIX,ad127m.com,REJECT
+  - DOMAIN-SUFFIX,ad131m.com,REJECT
+  - DOMAIN-SUFFIX,ad132m.com,REJECT
+  - DOMAIN-SUFFIX,ad1data.com,REJECT
+  - DOMAIN-SUFFIX,ad2games.com,REJECT
+  - DOMAIN-SUFFIX,ad2iction.com,REJECT
+  - DOMAIN-SUFFIX,ad4.com.cn,REJECT
+  - DOMAIN-SUFFIX,ad4game.com,REJECT
+  - DOMAIN-SUFFIX,ad6media.co.uk,REJECT
+  - DOMAIN-SUFFIX,ad6media.com,REJECT
+  - DOMAIN-SUFFIX,ad6media.es,REJECT
+  - DOMAIN-SUFFIX,ad6media.fr,REJECT
+  - DOMAIN-SUFFIX,adacado.com,REJECT
+  - DOMAIN-SUFFIX,adap.tv,REJECT
+  - DOMAIN-SUFFIX,adasiaholdings.com,REJECT
+  - DOMAIN-SUFFIX,adatrix.com,REJECT
+  - DOMAIN-SUFFIX,ad-balancer.at,REJECT
+  - DOMAIN-SUFFIX,adbecrsl.com,REJECT
+  - DOMAIN-SUFFIX,adblade.com,REJECT
+  - DOMAIN-SUFFIX,adblox.net,REJECT
+  - DOMAIN-SUFFIX,adbooth.com,REJECT
+  - DOMAIN-SUFFIX,ad-brix.com,REJECT
+  - DOMAIN-SUFFIX,adcamp.ru,REJECT
+  - DOMAIN-SUFFIX,adcdnx.com,REJECT
+  - DOMAIN-SUFFIX,adcel.co,REJECT
+  - DOMAIN-SUFFIX,ad-center.com,REJECT
+  - DOMAIN-SUFFIX,adcenter.io,REJECT
+  - DOMAIN-SUFFIX,adchina.com,REJECT
+  - DOMAIN-SUFFIX,adcloud.jp,REJECT
+  - DOMAIN-SUFFIX,ad-cloud.jp,REJECT
+  - DOMAIN-SUFFIX,adcloud.net,REJECT
+  - DOMAIN-SUFFIX,adcocktail.com,REJECT
+  - DOMAIN-SUFFIX,adcolony.com,REJECT
+  - DOMAIN-SUFFIX,adcomplete.ru,REJECT
+  - DOMAIN-SUFFIX,adcrowd.com,REJECT
+  - DOMAIN-SUFFIX,addapptr.com,REJECT
+  - DOMAIN-SUFFIX,addealing.com,REJECT
+  - DOMAIN-SUFFIX,addealsnetwork.com,REJECT
+  - DOMAIN-SUFFIX,ad-delivery.net,REJECT
+  - DOMAIN-SUFFIX,addict-mobile.net,REJECT
+  - DOMAIN-SUFFIX,addragon.com,REJECT
+  - DOMAIN-SUFFIX,adecorp.co.kr,REJECT
+  - DOMAIN-SUFFIX,adecosystems.net,REJECT
+  - DOMAIN-SUFFIX,adecosystems.tech,REJECT
+  - DOMAIN-SUFFIX,adelement.com,REJECT
+  - DOMAIN-SUFFIX,adelva.com,REJECT
+  - DOMAIN-SUFFIX,adentifi.com,REJECT
+  - DOMAIN-SUFFIX,adexchangemachine.com,REJECT
+  - DOMAIN-SUFFIX,adexprt.com,REJECT
+  - DOMAIN-SUFFIX,adextent.com,REJECT
+  - DOMAIN-SUFFIX,adfactor.nl,REJECT
+  - DOMAIN-SUFFIX,adfalcon.com,REJECT
+  - DOMAIN-SUFFIX,adflow.ru,REJECT
+  - DOMAIN-SUFFIX,adinall.com,REJECT
+  - DOMAIN-SUFFIX,ad-locus.com,REJECT
+  - DOMAIN-SUFFIX,adlooxtracking.com,REJECT
+  - DOMAIN-SUFFIX,admaster.com.cn,REJECT
+  - DOMAIN-SUFFIX,ad-maven.com,REJECT
+  - DOMAIN-SUFFIX,admob.com,REJECT
+  - DOMAIN-SUFFIX,ad-move.jp,REJECT
+  - DOMAIN-SUFFIX,adnxs.com,REJECT
+  - DOMAIN-SUFFIX,adnyg.com,REJECT
+  - DOMAIN-SUFFIX,ad-plus.cn,REJECT
+  - DOMAIN-SUFFIX,adsafeprotected.com,REJECT
+  - DOMAIN-SUFFIX,adsage.cn,REJECT
+  - DOMAIN-SUFFIX,adsage.com,REJECT
+  - DOMAIN-SUFFIX,ad-score.com,REJECT
+  - DOMAIN-SUFFIX,adsensor.org,REJECT
+  - DOMAIN-SUFFIX,adsmediabox.com,REJECT
+  - DOMAIN-SUFFIX,ads-pixiv.net,REJECT
+  - DOMAIN-SUFFIX,ad-srv.co,REJECT
+  - DOMAIN-SUFFIX,adsrvr.org,REJECT
+  - DOMAIN-SUFFIX,ad-stir.com,REJECT
+  - DOMAIN-SUFFIX,ads-twitter.com,REJECT
+  - DOMAIN-SUFFIX,adswizz.com,REJECT
+  - DOMAIN-SUFFIX,adsymptotic.com,REJECT
+  - DOMAIN-SUFFIX,ad-sys.com,REJECT
+  - DOMAIN-SUFFIX,adtarget.io,REJECT
+  - DOMAIN-SUFFIX,adtarget.me,REJECT
+  - DOMAIN-SUFFIX,adtdp.com,REJECT
+  - DOMAIN-SUFFIX,adthor.com,REJECT
+  - DOMAIN-SUFFIX,adtrace.org,REJECT
+  - DOMAIN-SUFFIX,advertising.com,REJECT
+  - DOMAIN-SUFFIX,adwhirl.com,REJECT
+  - DOMAIN-SUFFIX,adwo.com,REJECT
+  - DOMAIN-SUFFIX,adxadserv.com,REJECT
+  - DOMAIN-SUFFIX,aiclk.com,REJECT
+  - DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
+  - DOMAIN-SUFFIX,amobee.com,REJECT
+  - DOMAIN-SUFFIX,app-adforce.jp,REJECT
+  - DOMAIN-SUFFIX,appads.com,REJECT
+  - DOMAIN-SUFFIX,appcpi.net,REJECT
+  - DOMAIN-SUFFIX,appier.net,REJECT
+  - DOMAIN-SUFFIX,appsflyer.com,REJECT
+  - DOMAIN-SUFFIX,applift.com,REJECT
+  - DOMAIN-SUFFIX,applovin.com,REJECT
+  - DOMAIN-SUFFIX,applvn.com,REJECT
+  - DOMAIN-SUFFIX,apsalar.com,REJECT
+  - DOMAIN-SUFFIX,apxadtracking.net,REJECT
+  - DOMAIN-SUFFIX,atomhike.com,REJECT
+  - DOMAIN-SUFFIX,axonix.com,REJECT
+  - DOMAIN-SUFFIX,b2pk.com,REJECT
+  - DOMAIN-SUFFIX,bayimob.com,REJECT
+  - DOMAIN-SUFFIX,bjvvqu.cn,REJECT
+  - DOMAIN-SUFFIX,brightcom.com,REJECT
+  - DOMAIN-SUFFIX,bulldogcpi.com,REJECT
+  - DOMAIN-SUFFIX,bxsnews.com,REJECT
+  - DOMAIN-SUFFIX,carbonads.net,REJECT
+  - DOMAIN-SUFFIX,cdj99d.cn,REJECT
+  - DOMAIN-SUFFIX,clotfun.mobi,REJECT
+  - DOMAIN-SUFFIX,clotfun.online,REJECT
+  - DOMAIN-SUFFIX,cloudmobi.net,REJECT
+  - DOMAIN-SUFFIX,crwdcntrl.net,REJECT
+  - DOMAIN-SUFFIX,ctrmi.com,REJECT
+  - DOMAIN-SUFFIX,domob.cn,REJECT
+  - DOMAIN-SUFFIX,eroadvertising.com,REJECT
+  - DOMAIN-SUFFIX,ero-advertising.com,REJECT
+  - DOMAIN-SUFFIX,exdynsrv.com,REJECT
+  - DOMAIN-SUFFIX,exosrv.com,REJECT
+  - DOMAIN-SUFFIX,go2cloud.org,REJECT
+  - DOMAIN-SUFFIX,growingio.com,REJECT
+  - DOMAIN-SUFFIX,haloapps.com,REJECT
+  - DOMAIN-SUFFIX,hubcloud.com.cn,REJECT
+  - DOMAIN-SUFFIX,hypers.com,REJECT
+  - DOMAIN-SUFFIX,idealads.net,REJECT
+  - DOMAIN-SUFFIX,inmobi.cn,REJECT
+  - DOMAIN-SUFFIX,inmobi.com,REJECT
+  - DOMAIN-SUFFIX,inmobi.net,REJECT
+  - DOMAIN-SUFFIX,inmobicdn.cn,REJECT
+  - DOMAIN-SUFFIX,inmobicdn.net,REJECT
+  - DOMAIN-SUFFIX,inner-active.mobi,REJECT
+  - DOMAIN-SUFFIX,insurads.com,REJECT
+  - DOMAIN-SUFFIX,ironsrc.com,REJECT
+  - DOMAIN-SUFFIX,irs01.com,REJECT
+  - DOMAIN-SUFFIX,iskyworker.com,REJECT
+  - DOMAIN-SUFFIX,iyoowi.com,REJECT
+  - DOMAIN-SUFFIX,juicyads.com,REJECT
+  - DOMAIN-SUFFIX,kochava.com,REJECT
+  - DOMAIN-SUFFIX,leadboltmobile.net,REJECT
+  - DOMAIN-SUFFIX,lenzmx.com,REJECT
+  - DOMAIN-SUFFIX,liveadvert.com,REJECT
+  - DOMAIN-SUFFIX,lnk0.com,REJECT
+  - DOMAIN-SUFFIX,lnk8.cn,REJECT
+  - DOMAIN-SUFFIX,localytics.com,REJECT
+  - DOMAIN-SUFFIX,mdfull.com,REJECT
+  - DOMAIN-SUFFIX,measurementapi.com,REJECT
+  - DOMAIN-SUFFIX,medialytics.com,REJECT
+  - DOMAIN-SUFFIX,meetrics.com,REJECT
+  - DOMAIN-SUFFIX,meetrics.net,REJECT
+  - DOMAIN-SUFFIX,miaozhen.com,REJECT
+  - DOMAIN-SUFFIX,moatads.com,REJECT
+  - DOMAIN-SUFFIX,mobclix.com,REJECT
+  - DOMAIN-SUFFIX,mopub.com,REJECT
+  - DOMAIN-SUFFIX,okjhb.xyz,REJECT
+  - DOMAIN-SUFFIX,open-adx.com,REJECT
+  - DOMAIN-SUFFIX,openx.net,REJECT
+  - DOMAIN-SUFFIX,outbrain.com,REJECT
+  - DOMAIN-SUFFIX,pubmatic.com,REJECT
+  - DOMAIN-SUFFIX,qchannel01.cn,REJECT
+  - DOMAIN-SUFFIX,rayjump.com,REJECT
+  - DOMAIN-SUFFIX,rtbasia.com,REJECT
+  - DOMAIN-SUFFIX,rubiconproject.com,REJECT
+  - DOMAIN-SUFFIX,runative-syndicate.com,REJECT
+  - DOMAIN-SUFFIX,scorecardresearch.com,REJECT
+  - DOMAIN-SUFFIX,sdkclick.com,REJECT
+  - DOMAIN-SUFFIX,shuzilm.cn,REJECT
+  - DOMAIN-SUFFIX,smaato.net,REJECT
+  - DOMAIN-SUFFIX,smartadserver.com,REJECT
+  - DOMAIN-SUFFIX,smartnews-ads.com,REJECT
+  - DOMAIN-SUFFIX,socdm.com,REJECT
+  - DOMAIN-SUFFIX,supersonic.com,REJECT
+  - DOMAIN-SUFFIX,supersonicads.com,REJECT
+  - DOMAIN-SUFFIX,tagtic.cn,REJECT
+  - DOMAIN-SUFFIX,tanv.com,REJECT
+  - DOMAIN-SUFFIX,tanx.com,REJECT
+  - DOMAIN-SUFFIX,tapjoy.com,REJECT
+  - DOMAIN-SUFFIX,teads.tv,REJECT
+  - DOMAIN-SUFFIX,trafficjunky.net,REJECT
+  - DOMAIN-SUFFIX,trvdp.com,REJECT
+  - DOMAIN-SUFFIX,turn.com,REJECT
+  - DOMAIN-SUFFIX,uri6.com,REJECT
+  - DOMAIN-SUFFIX,vidoomy.com,REJECT
+  - DOMAIN-SUFFIX,vungle.com,REJECT
+  - DOMAIN-SUFFIX,wedolook.com,REJECT
+  - DOMAIN-SUFFIX,wrinkads.com,REJECT
+  - DOMAIN-SUFFIX,wsod.com,REJECT
+  - DOMAIN-SUFFIX,xapads.com,REJECT
+  - DOMAIN-SUFFIX,xdrig.com,REJECT
+  - DOMAIN-SUFFIX,xmlwizard.com,REJECT
+  - DOMAIN-SUFFIX,xpanama.net,REJECT
+  - DOMAIN-SUFFIX,xy7elite.com,REJECT
+  - DOMAIN-SUFFIX,yandexadexchange.net,REJECT
+  - DOMAIN-SUFFIX,ybrantdigital.com,REJECT
+  - DOMAIN-SUFFIX,ydmob.com,REJECT
+  - DOMAIN-SUFFIX,yeahmobi.com,REJECT
+  - DOMAIN-SUFFIX,yhdichan.com,REJECT
+  - DOMAIN-SUFFIX,yicha.jp,REJECT
+  - DOMAIN-SUFFIX,yllix.com,REJECT
+  - DOMAIN-SUFFIX,ymtrack6.co,REJECT
+  - DOMAIN-SUFFIX,ymtracking.com,REJECT
+  - DOMAIN-SUFFIX,yoc.com,REJECT
+  - DOMAIN-SUFFIX,yoc-performance.com,REJECT
+  - DOMAIN-SUFFIX,yomob.com.cn,REJECT
+  - DOMAIN-SUFFIX,youappi.com,REJECT
+  - DOMAIN-SUFFIX,youmi.net,REJECT
+  - DOMAIN-SUFFIX,yumimobi.com,REJECT
+  - DOMAIN-SUFFIX,yunqingugm.com,REJECT
+  - DOMAIN-SUFFIX,zapr.in,REJECT
+  - DOMAIN-SUFFIX,zemanta.com,REJECT
+  - DOMAIN-SUFFIX,zestads.com,REJECT
+  - DOMAIN-SUFFIX,zhiziyun.com,REJECT
+  - DOMAIN-SUFFIX,zu08e.cn,REJECT
+  - DOMAIN-SUFFIX,zucks.co.jp,REJECT
+  - DOMAIN-SUFFIX,zucks.net,REJECT
+  - DOMAIN-SUFFIX,zumobi.com,REJECT
+
+  - DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
+  - DOMAIN-SUFFIX,ad.daum.net,REJECT
+
+    # > 腾讯
+  - DOMAIN-SUFFIX,e.qq.com,REJECT
+  - DOMAIN-SUFFIX,gdt.qq.com,REJECT
+  - DOMAIN-SUFFIX,l.qq.com,REJECT
+  - DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
+  - DOMAIN,adsmind.gdtimg.com,REJECT
+  - DOMAIN,adsmind.tc.qq.com,REJECT
+  - DOMAIN,pgdt.gtimg.cn,REJECT
+  - DOMAIN,pgdt.gtimg.com,REJECT
+  - DOMAIN,pgdt.ugdtimg.com,REJECT
+  - DOMAIN,splashqqlive.gtimg.com,REJECT
+  - DOMAIN,wa.gtimg.com,REJECT
+  - DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+  - DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+  # > 腾讯音乐
+  - DOMAIN,ad.tencentmusic.com,REJECT
+  - DOMAIN,adserviceretry.kugou.com,REJECT
+  - DOMAIN,ads.service.kugou.com,REJECT
+  - DOMAIN,adsfile.bssdlbig.kugou.com,REJECT
+  - DOMAIN,g.koowo.com,REJECT
+  - DOMAIN,kgmobilestat.kugou.com,REJECT
+  - DOMAIN,kgmobilestatbak.kugou.com,REJECT
+  - DOMAIN,mobilelog.kugou.com,REJECT
+  - DOMAIN,mobilead.kuwo.cn,REJECT
+  - DOMAIN,rich.kuwo.cn,REJECT
+  # > 百度
+  - DOMAIN-SUFFIX,cpro.baidu.com,REJECT
+  - DOMAIN-SUFFIX,dbimg.com,REJECT
+  - DOMAIN,afd.baidu.com,REJECT
+  - DOMAIN,als.baidu.com,REJECT
+  - DOMAIN,duclick.baidu.com,REJECT
+  - DOMAIN,mobads-logs.baidu.com,REJECT
+  - DOMAIN,mobads.baidu.com,REJECT
+  - DOMAIN,nsclick.baidu.com,REJECT
+  - DOMAIN,edu-wenku.dbimg.com,REJECT
+  - DOMAIN,fclick.baidu.com,REJECT
+  # > 网易
+  - DOMAIN-SUFFIX,dsp.youdao.com,REJECT
+  - DOMAIN-SUFFIX,union.youdao.com,REJECT
+  - DOMAIN,ad.bn.netease.com,REJECT
+  - DOMAIN,ad.yixin.im,REJECT
+  - DOMAIN,admusicpic.music.126.net,REJECT
+  - DOMAIN,gorgon.youdao.com,REJECT
+  - DOMAIN,iad.g.163.com,REJECT
+  - DOMAIN,iadmat.nosdn.127.net,REJECT
+  - DOMAIN,iadmusicmat.music.126.net,REJECT
+  - DOMAIN,iadmusicmatvideo.music.126.net,REJECT
+  - DOMAIN,impservice.dictapp.youdao.com,REJECT
+  - DOMAIN,impservice.youdao.com,REJECT
+  - DOMAIN,n.3g.163.com,REJECT
+  - DOMAIN,nex.163.com,REJECT
+  - DOMAIN,yt-adp.nosdn.127.net,REJECT
+  - DOMAIN,yt-adp.ws.126.net,REJECT
+  # > 凤凰新媒体
+  - DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
+  - DOMAIN,api.newad.ifeng.com,REJECT
+  - DOMAIN,ifengad.3g.ifeng.com,REJECT
+  # > 新浪
+  - DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
+  - DOMAIN,adimg.uve.weibo.com,REJECT
+  - DOMAIN,adimg.vue.weibo.com,REJECT
+  - DOMAIN,u1.img.mobile.sina.cn,REJECT
+  - DOMAIN,sax.sina.com.cn,REJECT
+  - DOMAIN,saxs.sina.com.cn,REJECT
+  - DOMAIN,saxn.sina.com.cn,REJECT
+  # > Junk 360
+  - DOMAIN,dispatcher.360in.com,REJECT
+  - DOMAIN,ad.360in.com,REJECT
+  - DOMAIN,exp.360in.com,REJECT
+  # > 金山
+  - DOMAIN,ad-stat.ksosoft.com,REJECT
+  - DOMAIN,img.auction-ads.wpscdn.cn,REJECT
+  - DOMAIN,counter.kingsoft.com,REJECT
+  - DOMAIN,counter.ksosoft.com,REJECT
+  - DOMAIN,minfo.wps.cn,REJECT
+  - DOMAIN,mobad.ijinshan.com,REJECT
+  - DOMAIN,ups.ksmobile.net,REJECT
+  - DOMAIN,ws.ksmobile.net,REJECT
+  # > 喜马拉雅
+  - DOMAIN,ad.ximalaya.com,REJECT
+  - DOMAIN,adbs.ximalaya.com,REJECT
+  - DOMAIN,adse.ximalaya.com,REJECT
+  - DOMAIN,adse.wsa.ximalaya.com,REJECT
+  - DOMAIN,adbehavior.wsa.ximalaya.com,REJECT
+  - DOMAIN,adbehavior.ximalaya.com,REJECT
+  - DOMAIN,adsebs.ximalaya.com,REJECT
+  # > 小红书
+  - DOMAIN,ads-img-qc.xhscdn.com,REJECT
+  - DOMAIN,ads-video-qc.xhscdn.com,REJECT
+  - DOMAIN,t-ads.xiaohongshu.com,REJECT
+  # > Google
+  - DOMAIN-SUFFIX,doubleclick.net,REJECT
+  - DOMAIN-SUFFIX,googleadservices.com,REJECT
+  - DOMAIN-SUFFIX,googleadsserving.cn,REJECT
+  - DOMAIN-SUFFIX,adservice.google.com,REJECT
+  # > Yahoo
+  - DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
+  - DOMAIN-SUFFIX,adspecs.yahoo.com,REJECT
+  - DOMAIN-SUFFIX,advertising.yahoo.com,REJECT
+  - DOMAIN-SUFFIX,gemini.yahoo.com,REJECT
+  - DOMAIN,admarketing.yahoo.net,REJECT
+  - DOMAIN,ads.auctions.yahoo.com,REJECT
+  - DOMAIN,ads.finance.yahoo.com,REJECT
+  - DOMAIN,ads.yahoo.com,REJECT
+  - DOMAIN,ads.yahoo.de,REJECT
+
+  - DOMAIN-SUFFIX,avxvl.com,REJECT
+  - DOMAIN-SUFFIX,scjav1.com,REJECT
+  - DOMAIN-SUFFIX,phncdn.com,REJECT
+  - DOMAIN-SUFFIX,phprcdn.com,REJECT
+  - DOMAIN-SUFFIX,pornhub.com,REJECT
+  - DOMAIN-SUFFIX,pornhubpremium.com,REJECT
+  - DOMAIN-SUFFIX,jable.tv,REJECT
+  - DOMAIN-SUFFIX,xvideos.com,REJECT
+  - DOMAIN-KEYWORD,jav,REJECT
+  # > Google
+  # > AMP Google带领开发的用于网页访问加速的开源项目
+  - DOMAIN-SUFFIX,ampproject.org,Foreign🌎
+  # > 域名部分
+  - DOMAIN-SUFFIX,abc.xyz,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,android.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,androidify.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,dialogflow.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,autodraw.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,capitalg.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,certificate-transparency.org,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,chrome.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,chromeexperiments.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,chromestatus.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,chromium.org,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,creativelab5.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,debug.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,deepmind.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,firebaseio.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,getmdl.io,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,ggpht.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,gmail.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,gmodules.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,godoc.org,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,golang.org,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,gstatic.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,gv.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,gwtproject.org,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,itasoftware.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,madewithcode.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,material.io,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,polymer-project.org,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,admin.recaptcha.net,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,recaptcha.net,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,shattered.io,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,synergyse.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,telephony.goog,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,tensorflow.org,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,tfhub.dev,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,tiltbrush.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,waveprotocol.org,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,waymo.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,webmproject.org,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,webrtc.org,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,whatbrowser.org,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,widevine.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,x.company,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,youtu.be,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,yt.be,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,ytimg.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,googleapis.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN,scholar.google.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN,safebrowsing.googleapis.com,Google🇺🇲🇯🇵🇨🇦
+  # > YouTube
+  - DOMAIN-SUFFIX,googlevideo.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,youtube.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN,youtubei.googleapis.com,Google🇺🇲🇯🇵🇨🇦
+  # > Google 翻译
+  - DOMAIN,translate.googleapis.com,Google🇺🇲🇯🇵🇨🇦
+
+  # > (DNS Cache Pollution Protection)
+  - DOMAIN-SUFFIX,appspot.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,blogger.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,getoutline.org,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,gvt0.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,gvt1.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,gvt3.com,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Google🇺🇲🇯🇵🇨🇦
+  # > IP段 代理
+  - IP-CIDR,173.194.0.0/16,Google🇺🇲🇯🇵🇨🇦
+  - IP-CIDR,74.125.0.0/16,Google🇺🇲🇯🇵🇨🇦
+  # > 域名关键字匹配
+  - DOMAIN-KEYWORD,gmail,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-KEYWORD,gstatic,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-KEYWORD,google,Google🇺🇲🇯🇵🇨🇦
+  - DOMAIN-KEYWORD,blogspot,Google🇺🇲🇯🇵🇨🇦
+  # > 国内部分修正
+  # - DOMAIN,safebrowsing.googleapis.com,DIRECT
+  - DOMAIN-SUFFIX,dl.google.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,google.cn,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,mtalk.google.com,HomeLand🇨🇳
+
+  # LINE
+  - DOMAIN-SUFFIX,lin.ee,LINE🇯🇵
+  - DOMAIN-SUFFIX,line.naver.jp,LINE🇯🇵
+  - DOMAIN-SUFFIX,line.me,LINE🇯🇵
+  - DOMAIN-SUFFIX,line-apps.com,LINE🇯🇵
+  - DOMAIN-SUFFIX,line-cdn.net,LINE🇯🇵
+  - DOMAIN-SUFFIX,line-scdn.net,LINE🇯🇵
+  - DOMAIN-SUFFIX,nhncorp.jp,LINE🇯🇵
+  - DOMAIN-SUFFIX,naver.jp,LINE🇯🇵
+  # > IP段
+  - IP-CIDR,103.2.28.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,103.2.30.0/23,LINE🇯🇵,no-resolve
+  - IP-CIDR,103.2.30.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,103.2.31.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,119.235.224.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,119.235.232.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,119.235.235.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,119.235.236.0/23,LINE🇯🇵,no-resolve
+  - IP-CIDR,119.235.236.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,119.235.237.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,147.92.128.0/17,LINE🇯🇵,no-resolve
+  - IP-CIDR,147.92.128.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,147.92.129.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,147.92.130.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,147.92.131.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,147.92.132.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,147.92.133.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,147.92.134.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,147.92.135.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,147.92.248.0/21,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.128.0/20,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.128.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.129.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.130.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.131.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.132.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.133.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.134.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.135.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.136.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.137.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.138.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.139.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.140.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.141.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.142.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.143.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.144.0/21,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.144.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.145.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.146.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.147.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.148.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.149.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.150.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.151.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.152.0/22,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.152.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.153.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.154.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.155.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.156.0/23,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.156.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.157.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR,203.104.158.0/24,LINE🇯🇵,no-resolve
+  - IP-CIDR6,2400:dcc0::/32,LINE🇯🇵,no-resolve
+  - DOMAIN-SUFFIX,co.jp,霓虹国🇯🇵
+  - DOMAIN-SUFFIX,mora.jp,霓虹国🇯🇵
+
+   # > APPLE🍏 API
+  - DOMAIN-SUFFIX,aaplimg.com,APPLE🍏
+  - DOMAIN-SUFFIX,apple.co,APPLE🍏
+  - DOMAIN-SUFFIX,apple.com,APPLE🍏
+  - DOMAIN-SUFFIX,apple-cloudkit.com,APPLE🍏
+  - DOMAIN-SUFFIX,appsto.re,APPLE🍏
+  - DOMAIN,apps.apple.com,APPLE🍏
+  - DOMAIN-SUFFIX,cdn-apple.com,APPLE🍏
+  - DOMAIN-SUFFIX,icloud.com,APPLE🍏
+  - DOMAIN-SUFFIX,icloud-content.com,APPLE🍏
+  - DOMAIN-SUFFIX,itunes.com,APPLE🍏
+  - DOMAIN-SUFFIX,me.com,APPLE🍏
+  - IP-CIDR,17.0.0.0/8,APPLE🍏
+  - IP-CIDR,63.92.224.0/19,APPLE🍏
+  - IP-CIDR,65.199.22.0/23,APPLE🍏
+  - IP-CIDR,139.178.128.0/18,APPLE🍏
+  - IP-CIDR,144.178.0.0/19,APPLE🍏
+  - IP-CIDR,144.178.36.0/22,APPLE🍏
+  - IP-CIDR,144.178.48.0/20,APPLE🍏
+  - IP-CIDR,192.35.50.0/24,APPLE🍏
+  - IP-CIDR,198.183.17.0/24,APPLE🍏
+  - IP-CIDR,205.180.175.0/24,APPLE🍏
+    # > APPLE🍏 CDN
+    # - PROCESS-NAME,storedownloadd,APPLE🍏
+    # - USER-AGENT,com.apple.appstored*,APPLE🍏
+  - DOMAIN,aod.itunes.apple.com,APPLE🍏
+  - DOMAIN,api.smoot.apple.cn,APPLE🍏
+  - DOMAIN,appldnld.apple.com,APPLE🍏
+  - DOMAIN,apptrailers.itunes.apple.com,APPLE🍏
+  - DOMAIN,gs-loc-cn.apple.com,APPLE🍏
+  - DOMAIN,iosapps.itunes.apple.com,APPLE🍏
+  - DOMAIN,music.apple.com,APPLE🍏
+  - DOMAIN,mvod.itunes.apple.com,APPLE🍏
+  - DOMAIN,osxapps.itunes.apple.com,APPLE🍏
+  - DOMAIN,supportdownload.apple.com,APPLE🍏
+  - DOMAIN,swcdn.apple.com,APPLE🍏
+  - DOMAIN,updates-http.cdn-apple.com,APPLE🍏
+  - DOMAIN-SUFFIX,ls.apple.com,APPLE🍏
+  - DOMAIN-SUFFIX,mzstatic.com,APPLE🍏
+
+  # > Scholar📖
+  - DOMAIN-SUFFIX,acm.org,Scholar📖
+  - DOMAIN-SUFFIX,acs.org,Scholar📖
+  - DOMAIN-SUFFIX,aip.org,Scholar📖
+  - DOMAIN-SUFFIX,ams.org,Scholar📖
+  - DOMAIN-SUFFIX,annualreviews.org,Scholar📖
+  - DOMAIN-SUFFIX,aps.org,Scholar📖
+  - DOMAIN-SUFFIX,ascelibrary.org,Scholar📖
+  - DOMAIN-SUFFIX,asm.org,Scholar📖
+  - DOMAIN-SUFFIX,asme.org,Scholar📖
+  - DOMAIN-SUFFIX,astm.org,Scholar📖
+  - DOMAIN-SUFFIX,bmj.com,Scholar📖
+  - DOMAIN-SUFFIX,cambridge.org,Scholar📖
+  - DOMAIN-SUFFIX,cas.org,Scholar📖
+  - DOMAIN-SUFFIX,cell.com,Scholar📖
+  - DOMAIN-SUFFIX,clarivate.com,Scholar📖
+  - DOMAIN-SUFFIX,csiro.au,Scholar📖
+  - DOMAIN-SUFFIX,ebscohost.com,Scholar📖
+  - DOMAIN-SUFFIX,elsevier.com,Scholar📖
+  - DOMAIN-SUFFIX,emerald.com,Scholar📖
+  - DOMAIN-SUFFIX,endnote.com,Scholar📖
+  - DOMAIN-SUFFIX,engineeringvillage.com,Scholar📖
+  - DOMAIN-SUFFIX,icevirtuallibrary.com,Scholar📖
+  - DOMAIN-SUFFIX,ieee.org,Scholar📖
+  - DOMAIN-SUFFIX,imf.org,Scholar📖
+  - DOMAIN-SUFFIX,iop.org,Scholar📖
+  - DOMAIN-SUFFIX,jamanetwork.com,Scholar📖
+  - DOMAIN-SUFFIX,jbc.org,Scholar📖
+  - DOMAIN-SUFFIX,jhu.edu,Scholar📖
+  - DOMAIN-SUFFIX,jstor.org,Scholar📖
+  - DOMAIN-SUFFIX,karger.com,Scholar📖
+  - DOMAIN-SUFFIX,libguides.com,Scholar📖
+  - DOMAIN-SUFFIX,madsrevolution.net,Scholar📖
+  - DOMAIN-SUFFIX,mdpi.com,Scholar📖
+  - DOMAIN-SUFFIX,mpg.de,Scholar📖
+  - DOMAIN-SUFFIX,myilibrary.com,Scholar📖
+  - DOMAIN-SUFFIX,nature.com,Scholar📖
+  - DOMAIN-SUFFIX,ncbi.nlm.nih.gov,Scholar📖
+  - DOMAIN-SUFFIX,oecd-ilibrary.org,Scholar📖
+  - DOMAIN-SUFFIX,osapublishing.org,Scholar📖
+  - DOMAIN-SUFFIX,oup.com,Scholar📖
+  - DOMAIN-SUFFIX,ovid.com,Scholar📖
+  - DOMAIN-SUFFIX,oxfordartonline.com,Scholar📖
+  - DOMAIN-SUFFIX,oxfordbibliographies.com,Scholar📖
+  - DOMAIN-SUFFIX,oxfordmusiconline.com,Scholar📖
+  - DOMAIN-SUFFIX,pnas.org,Scholar📖
+  - DOMAIN-SUFFIX,proquest.com,Scholar📖
+  - DOMAIN-SUFFIX,rsc.org,Scholar📖
+  - DOMAIN-SUFFIX,sagepub.com,Scholar📖
+  - DOMAIN-SUFFIX,sciencedirect.com,Scholar📖
+  - DOMAIN-SUFFIX,sciencemag.org,Scholar📖
+  - DOMAIN-SUFFIX,sci-hub.tw,Scholar📖
+  - DOMAIN-SUFFIX,scopus.com,Scholar📖
+  - DOMAIN-SUFFIX,siam.org,Scholar📖
+  - DOMAIN-SUFFIX,spiedigitallibrary.org,Scholar📖
+  - DOMAIN-SUFFIX,springer.com,Scholar📖
+  - DOMAIN-SUFFIX,springerlink.com,Scholar📖
+  - DOMAIN-SUFFIX,tandfonline.com,Scholar📖
+  - DOMAIN-SUFFIX,un.org,Scholar📖
+  - DOMAIN-SUFFIX,uni-bielefeld.de,Scholar📖
+  - DOMAIN-SUFFIX,webofknowledge.com,Scholar📖
+  - DOMAIN-SUFFIX,westlaw.com,Scholar📖
+  - DOMAIN-SUFFIX,wiley.com,Scholar📖
+  - DOMAIN-SUFFIX,worldbank.org,Scholar📖
+  - DOMAIN-SUFFIX,worldscientific.com,Scholar📖
+
+  # Amazon Prime Video
+  # USER-AGENT,InstantVideo.US*,Amazon⛰️
+  # USER-AGENT,Prime%20Video*,Amazon⛰️
+  # - DOMAIN-KEYWORD,amazon.com,Amazon⛰️
+  - DOMAIN-SUFFIX,media-amazon.com,Amazon⛰️
+  - DOMAIN,atv-ps.amazon.com,Amazon⛰️
+  - DOMAIN,fls-na.amazon.com,Amazon⛰️
+  - DOMAIN-SUFFIX,aiv-cdn.net,Amazon⛰️
+  - DOMAIN-SUFFIX,amazonaws.com,Amazon⛰️
+  - DOMAIN-SUFFIX,amazonvideo.com,Amazon⛰️
+  - DOMAIN-SUFFIX,llnwd.net,Amazon⛰️
+  - DOMAIN-SUFFIX,aiv-delivery.net,Amazon⛰️
+  - DOMAIN-SUFFIX,media-amazon.com,Amazon⛰️
+  - DOMAIN-SUFFIX,primevideo.com,Amazon⛰️
+  - DOMAIN-SUFFIX,media-amazon.com,Amazon⛰️
+  - DOMAIN,atv-ps.amazon.com,Amazon⛰️
+  - DOMAIN,fls-na.amazon.com,Amazon⛰️
+  - DOMAIN,images-fe.ssl-images-amazon.com,Amazon⛰️
+
+  #   > ViuTV
+  - DOMAIN-SUFFIX,viu.com,VIU🇭🇰
+  - DOMAIN-SUFFIX,viu.tv,VIU🇭🇰
+  - DOMAIN-SUFFIX,viu.now.com,VIU🇭🇰
+  - DOMAIN,api.viu.now.com,VIU🇭🇰
+  - DOMAIN,um.viuapi.io,VIU🇭🇰
+  - DOMAIN,viu-static.akamaized.net,VIU🇭🇰
+  - DOMAIN,d1k2us671qcoau.cloudfront.net,VIU🇭🇰
+  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,VIU🇭🇰
+  - DOMAIN,dfp6rglgjqszk.cloudfront.net,VIU🇭🇰
+
+  - DOMAIN-SUFFIX,fast.com,Netflix📽️
+  - DOMAIN-SUFFIX,netflix.com,Netflix📽️
+  - DOMAIN-SUFFIX,netflix.net,Netflix📽️
+  - DOMAIN-SUFFIX,nflxext.com,Netflix📽️
+  - DOMAIN-SUFFIX,nflximg.com,Netflix📽️
+  - DOMAIN-SUFFIX,nflximg.net,Netflix📽️
+  - DOMAIN-SUFFIX,nflxso.net,Netflix📽️
+  - DOMAIN-SUFFIX,nflxvideo.net,Netflix📽️
+  - DOMAIN-SUFFIX,netflixdnstest0.com,Netflix📽️
+  - DOMAIN-SUFFIX,netflixdnstest1.com,Netflix📽️
+  - DOMAIN-SUFFIX,netflixdnstest2.com,Netflix📽️
+  - DOMAIN-SUFFIX,netflixdnstest3.com,Netflix📽️
+  - DOMAIN-SUFFIX,netflixdnstest4.com,Netflix📽️
+  - DOMAIN-SUFFIX,netflixdnstest5.com,Netflix📽️
+  - DOMAIN-SUFFIX,netflixdnstest6.com,Netflix📽️
+  - DOMAIN-SUFFIX,netflixdnstest7.com,Netflix📽️
+  - DOMAIN-SUFFIX,netflixdnstest8.com,Netflix📽️
+  - DOMAIN-SUFFIX,netflixdnstest9.com,Netflix📽️
+  - IP-CIDR,23.246.0.0/18,Netflix📽️,no-resolve
+  - IP-CIDR,37.77.184.0/21,Netflix📽️,no-resolve
+  - IP-CIDR,45.57.0.0/17,Netflix📽️,no-resolve
+  - IP-CIDR,64.120.128.0/17,Netflix📽️,no-resolve
+  - IP-CIDR,66.197.128.0/17,Netflix📽️,no-resolve
+  - IP-CIDR,108.175.32.0/20,Netflix📽️,no-resolve
+  - IP-CIDR,192.173.64.0/18,Netflix📽️,no-resolve
+  - IP-CIDR,198.38.96.0/19,Netflix📽️,no-resolve
+  - IP-CIDR,198.45.48.0/20,Netflix📽️,no-resolve 
+
+  # > Facebook🐳
+  - DOMAIN-SUFFIX,cdninstagram.com,Facebook🐳
+  - DOMAIN-SUFFIX,fb.com,Facebook🐳
+  - DOMAIN-SUFFIX,fb.me,Facebook🐳
+  - DOMAIN-SUFFIX,fbaddins.com,Facebook🐳
+  - DOMAIN-SUFFIX,fbcdn.net,Facebook🐳
+  - DOMAIN-SUFFIX,fbsbx.com,Facebook🐳
+  - DOMAIN-SUFFIX,fbworkmail.com,Facebook🐳
+  - DOMAIN-SUFFIX,instagram.com,Facebook🐳
+  - DOMAIN-SUFFIX,m.me,Facebook🐳
+  - DOMAIN-SUFFIX,messenger.com,Facebook🐳
+  - DOMAIN-SUFFIX,oculus.com,Facebook🐳
+  - DOMAIN-SUFFIX,oculuscdn.com,Facebook🐳
+  - DOMAIN-SUFFIX,rocksdb.org,Facebook🐳
+  - DOMAIN-SUFFIX,whatsapp.com,Facebook🐳
+  - DOMAIN-SUFFIX,whatsapp.net,Facebook🐳
+  - DOMAIN-SUFFIX,facebook,Facebook🐳
+  - IP-CIDR,3.123.36.126/32,Facebook🐳
+  - IP-CIDR,52.58.209.134/32,Facebook🐳
+  - IP-CIDR,54.93.124.31/32,Facebook🐳
+  - IP-CIDR,54.173.34.141/32,Facebook🐳
+  - IP-CIDR,54.235.23.242/32,Facebook🐳
+  - IP-CIDR,169.45.248.118/32,Facebook🐳
+  - IP-CIDR,103.4.96.0/22,Facebook🐳,no-resolve
+  - IP-CIDR,129.134.0.0/17,Facebook🐳,no-resolve
+  - IP-CIDR,157.240.0.0/17,Facebook🐳,no-resolve
+  - IP-CIDR,173.252.64.0/19,Facebook🐳,no-resolve
+  - IP-CIDR,173.252.96.0/19,Facebook🐳,no-resolve
+  - IP-CIDR,179.60.192.0/22,Facebook🐳,no-resolve
+  - IP-CIDR,185.60.216.0/22,Facebook🐳,no-resolve
+  - IP-CIDR,204.15.20.0/22,Facebook🐳,no-resolve
+  - IP-CIDR,31.13.24.0/21,Facebook🐳,no-resolve
+  - IP-CIDR,31.13.64.0/18,Facebook🐳,no-resolve
+  - IP-CIDR,45.64.40.0/22,Facebook🐳,no-resolve
+  - IP-CIDR,66.220.144.0/20,Facebook🐳,no-resolve
+  - IP-CIDR,69.171.224.0/19,Facebook🐳,no-resolve
+  - IP-CIDR,69.63.176.0/20,Facebook🐳,no-resolve
+  - IP-CIDR,74.119.76.0/22,Facebook🐳,no-resolve
+
+  - DOMAIN-SUFFIX,t.me,Telegram🦸
+  - DOMAIN-SUFFIX,tdesktop.com,Telegram🦸
+  - DOMAIN-SUFFIX,telegra.ph,Telegram🦸
+  - DOMAIN-SUFFIX,telegram.me,Telegram🦸
+  - DOMAIN-SUFFIX,telegram.org,Telegram🦸
+  - IP-CIDR,67.198.55.0/24,Telegram🦸
+  - IP-CIDR,91.108.4.0/22,Telegram🦸
+  - IP-CIDR,91.108.8.0/22,Telegram🦸
+  - IP-CIDR,91.108.12.0/22,Telegram🦸
+  - IP-CIDR,91.108.16.0/22,Telegram🦸
+  - IP-CIDR,91.108.56.0/22,Telegram🦸
+  - IP-CIDR,109.239.140.0/24,Telegram🦸
+  - IP-CIDR,149.154.160.0/20,Telegram🦸
+  - IP-CIDR,205.172.60.0/22,Telegram🦸
+
+  # JOOX
+  - DOMAIN,WeMusic*,JOOX🇭🇰
+  - DOMAIN,JOOX*,JOOX🇭🇰
+  - DOMAIN-SUFFIX,joox.com,JOOX🇭🇰
+  - DOMAIN,api-jooxtt.sanook.com,JOOX🇭🇰
+  - DOMAIN,jooxweb-api.tencent.co.th,JOOX🇭🇰
+  # > HULU
+  - DOMAIN-SUFFIX,hulu.com,Hulu🇺🇲
+  - DOMAIN-SUFFIX,huluim.com,Hulu🇺🇲
+  - DOMAIN-SUFFIX,hulustream.com,Hulu🇺🇲
+  - DOMAIN,assetshuluimcom-a.akamaihd.net,Hulu🇺🇲
+
+  # > Disney Plus
+  - DOMAIN-KEYWORD,disneyplus,Disney+🇺🇲
+  - DOMAIN-SUFFIX,cdn.registerdisney.go.com,Disney+🇺🇲
+  - DOMAIN-SUFFIX,cdn.cdn.unid.go.com,Disney+🇺🇲
+  - DOMAIN-SUFFIX,disney.my.sentry.io,Disney+🇺🇲
+  - DOMAIN-SUFFIX,adobedtm.com,Disney+🇺🇲
+  - DOMAIN-SUFFIX,bamgrid.com,Disney+🇺🇲
+  - DOMAIN-SUFFIX,bam.nr-data.net,Disney+🇺🇲
+  - DOMAIN-SUFFIX,braze.com,Disney+🇺🇲
+  - DOMAIN-SUFFIX,conviva.com,Disney+🇺🇲
+  - DOMAIN-SUFFIX,cdn.optimizely.com,Disney+🇺🇲
+  - DOMAIN-SUFFIX,cdn.registerdisney.go.com,Disney+🇺🇲
+  - DOMAIN-SUFFIX,cws.conviva.com,Disney+🇺🇲
+  - DOMAIN-SUFFIX,d9.flashtalking.com,Disney+🇺🇲
+  - DOMAIN-SUFFIX,disney.demdex.net,Disney+🇺🇲
+  - DOMAIN-SUFFIX,disneyplus.com,Disney+🇺🇲
+  - DOMAIN-SUFFIX,disney-plus.net,Disney+🇺🇲
+  - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,Disney+🇺🇲
+  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,Disney+🇺🇲
+  - DOMAIN-SUFFIX,dssott.com,Disney+🇺🇲
+  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,Disney+🇺🇲
+  - DOMAIN-SUFFIX,js-agent.newrelic.com,Disney+🇺🇲
+
+  - DOMAIN-SUFFIX,bahamut.com.tw,動畫瘋🏂
+  - DOMAIN-SUFFIX,gamer.com.tw,動畫瘋🏂
+  - DOMAIN,gamer-cds.cdn.hinet.net,動畫瘋🏂
+  - DOMAIN,gamer2-cds.cdn.hinet.net,動畫瘋🏂
+
+  - DOMAIN-SUFFIX,kktv.com.tw,KKTV🧚
+  - DOMAIN-SUFFIX,kktv.me,KKTV🧚
+  - DOMAIN,kktv-theater.kk.stream,KKTV🧚
+
+  - DOMAIN-SUFFIX,kkbox.com,KKBOX🎧
+  - DOMAIN-SUFFIX,kkbox.com.tw,KKBOX🎧
+  - DOMAIN-SUFFIX,kfs.io,KKBOX🎧
+  # > Spotify
+  - DOMAIN-SUFFIX,pscdn.co,Spotify🎶
+  - DOMAIN-SUFFIX,scdn.co,Spotify🎶
+  - DOMAIN-SUFFIX,spotify.com,Spotify🎶
+  - DOMAIN-SUFFIX,spoti.fi,Spotify🎶
+  - DOMAIN-SUFFIX,spotifycdn.net,Spotify🎶
+  - DOMAIN-SUFFIX,spotifycdn.com,Spotify🎶
+  - DOMAIN-KEYWORD,spotify.com,Spotify🎶
+  - DOMAIN-KEYWORD,-spotify-com,Spotify🎶
+  - IP-CIDR,35.186.224.47/32,Spotify🎶
+  # > Pandora Music
+  - DOMAIN-SUFFIX,pandora.com,Pandora🇺🇲
+
+  # > SoundCloud
+  - DOMAIN-SUFFIX,sndcdn.com,SoundCloud🇩🇪
+  - DOMAIN-SUFFIX,soundcloud.com,SoundCloud🇩🇪
+  # > PayPal 
+  - DOMAIN-KEYWORD,paypal,PayPal💵
+  - DOMAIN-SUFFIX,paypal.com,PayPal💵
+  - DOMAIN-SUFFIX,paypalobjects.com,PayPal💵
+  # > Yandex
+  - DOMAIN-SUFFIX,yandex.com,Yandex🇷🇺
+  - DOMAIN-SUFFIX,yandex.ru,Yandex🇷🇺
+  - DOMAIN-SUFFIX,yandex.net,Yandex🇷🇺
+  - DOMAIN-SUFFIX,yastatic.net,Yandex🇷🇺
+  - DOMAIN-SUFFIX,yandex.st,Yandex🇷🇺
+  - DOMAIN-SUFFIX,webvisor.com,Yandex🇷🇺
+  - DOMAIN-SUFFIX,yadro.ru,Yandex🇷🇺
+  - DOMAIN-SUFFIX,rambler.ru,Yandex🇷🇺
+  - DOMAIN-SUFFIX,stats.mos.ru,Yandex🇷🇺
+  - DOMAIN-SUFFIX,adfox.ru,Yandex🇷🇺
+  - DOMAIN-SUFFIX,rutarget.ru,Yandex🇷🇺
+  - DOMAIN-SUFFIX,yoomoney.ru,Yandex🇷🇺
+  - DOMAIN-SUFFIX,kinopoisk.ru,Yandex🇷🇺
+  - DOMAIN-SUFFIX,yookassa.ru,Yandex🇷🇺
+  - DOMAIN,dmg.digitaltarget.ru,Yandex🇷🇺
+  - DOMAIN,ssp.adriver.ru,Yandex🇷🇺
+  - DOMAIN,mc.admetrica.ru,Yandex🇷🇺
+  - DOMAIN,yandex.ocsp-responder.com,Yandex🇷🇺
+  - DOMAIN,yandex-news.clstorage.net,Yandex🇷🇺
+  - DOMAIN,yandex-images.naydex.net,Yandex🇷🇺
+  - DOMAIN,yandex-video.naydex.net,Yandex🇷🇺
+  - DOMAIN,yandex-question.naydex.net,Yandex🇷🇺
+  - DOMAIN,kinopoisk-ru.naydex.net,Yandex🇷🇺
+  - DOMAIN,yandex-pogoda.clstorage.net,Yandex🇷🇺
+  - DOMAIN-SUFFIX,naydex.net,Yandex🇷🇺
+  - DOMAIN-KEYWORD,yandex,Yandex🇷🇺
+
+  - DOMAIN-KEYWORD,1drv,Microsoft🖥️
+  - DOMAIN-KEYWORD,microsoft,Microsoft🖥️
+  - DOMAIN-SUFFIX,aadrm.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,acompli.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,acompli.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,aka.ms,Microsoft🖥️
+  - DOMAIN-SUFFIX,akadns.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,aspnetcdn.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,assets-yammer.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,azure.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,azure.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,azureedge.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,azurerms.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,bing.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,cloudapp.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,cloudappsecurity.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,edgesuite.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,gfx.ms,Microsoft🖥️
+  - DOMAIN-SUFFIX,hotmail.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,live.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,live.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,lync.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,msappproxy.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,msauth.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,msauthimages.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,msecnd.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,msedge.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,msft.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,msftauth.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,msftauthimages.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,msftidentity.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,msidentity.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,msn.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,msocdn.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,msocsp.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,mstea.ms,Microsoft🖥️
+  - DOMAIN-SUFFIX,o365weve.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,oaspapps.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,office.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,office.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,office365.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,officeppe.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,omniroot.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,onedrive.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,onenote.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,onenote.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,onestore.ms,Microsoft🖥️
+  - DOMAIN-SUFFIX,outlook.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,outlookmobile.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,phonefactor.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,public-trust.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,sfbassets.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,sfx.ms,Microsoft🖥️
+  - DOMAIN-SUFFIX,sharepoint.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,sharepointonline.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,skype.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,skypeassets.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,skypeforbusiness.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,staffhub.ms,Microsoft🖥️
+  - DOMAIN-SUFFIX,svc.ms,Microsoft🖥️
+  - DOMAIN-SUFFIX,sway-cdn.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,sway-extensions.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,sway.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,trafficmanager.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,uservoice.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,virtualearth.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,visualstudio.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,windows-ppe.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,windows.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,windows.net,Microsoft🖥️
+  - DOMAIN-SUFFIX,windowsazure.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,windowsupdate.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,wunderlist.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,yammer.com,Microsoft🖥️
+  - DOMAIN-SUFFIX,yammerusercontent.com,Microsoft🖥️
+
+  - DOMAIN-SUFFIX,iqiyi.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,71.am,HomeLand🇨🇳
+  - DOMAIN,upos-hz-mirrorakam.akamaized.net,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,qhres.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,qhimg.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,akadns.net,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,alibaba.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,alicdn.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,alikunlun.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,alipay.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,amap.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,dingtalk.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,taobao.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,tmall.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,tmall.hk,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,ykimg.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,youku.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,xiami.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,xiami.net,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,baidu.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,baidubcr.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,bdstatic.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,acgvideo.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,hdslb.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,blizzard.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,battle.net,HomeLand🇨🇳
+  - DOMAIN,blzddist1-a.akamaihd.net,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,feiliao.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,pstatp.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,snssdk.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,iesdouyin.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,toutiao.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,343480.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,baduziyuan.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,com-hs-hkdy.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,czybjz.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,dandanzan.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,fjhps.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,kuyunbo.club,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,21cn.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,hitv.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,mgtv.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,iqiyi.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,iqiyipic.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,71.am.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,jd.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,jd.hk,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,360buyimg.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,iciba.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,ksosoft.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,meitu.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,meitudata.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,meitustat.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,meipai.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,duokan.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,mi-img.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,miui.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,xiaomi.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,microsoft.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,windows.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,windowsupdate.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,visualstudio.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,msecnd.net,HomeLand🇨🇳
+  - DOMAIN,officecdn-microsoft-com.akamaized.net,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,163.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,126.net,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,127.net,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,163yun.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,lofter.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,ydstatic.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,sina.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,weibo.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,sohu.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,sohucs.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,sohu-inc.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,v-56.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,sogo.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,sogou.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,sogoucdn.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,steampowered.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,steam-chat.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,steamgames.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,steamusercontent.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,steamcontent.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,steamstatic.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,qq.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,tencent.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,jstucdn.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,zimuzu.io,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,zimuzu.tv,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,zmz2019.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,zmzapi.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,zmzapi.net,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,zmzfile.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,chinanetcenter.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,wangsu.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,meixincdn.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,ipip.net,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,ip.la,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,ip-cdn.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,ipv6-test.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,test-ipv6.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,whatismyip.com,HomeLand🇨🇳
+  - DOMAIN,ip.bjango.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,netspeedtestmaster.com,HomeLand🇨🇳
+  - DOMAIN,speedtest.macpaw.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,awesome-hd.me,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,broadcasthe.net,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,chdbits.co,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,classix-unlimited.co.uk,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,empornium.me,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,gazellegames.net,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,hdchina.org,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,hdsky.me,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,jpopsuki.eu,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,keepfrds.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,m-team.cc,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,nanyangpt.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,ncore.cc,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,open.cd,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,ourbits.club,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,passthepopcorn.me,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,privatehd.to,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,redacted.ch,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,springsunday.net,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,tjupt.org,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,totheglory.im,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,cn,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,8686c.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,aixifan.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,beitaichufang.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,booking.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,bstatic.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,cailianpress.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,chunyu.mobi,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,chushou.tv,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,cmbchina.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,cmbimg.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,ctrip.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,dfcfw.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,douban.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,doubanio.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,douyu.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,dxycdn.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,eastmoney.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,futunn.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,geilicdn.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,hicloud.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,hostbuf.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,huya.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,infinitynewtab.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,ithome.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,keepcdn.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,kkmh.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,luojilab.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,maoyun.tv,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,meituan.net,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,mobike.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,mubu.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,myzaker.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,nvidia.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,qyer.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,qyerstatic.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,ronghub.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,ruguoapp.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,smzdm.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,snapdrop.net,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,sspai.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,teamviewer.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,tianyancha.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,udacity.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,uning.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,weather.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,weidian.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,xmcdn.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,yangkeduo.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,zhangzishi.cc,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,zhihu.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,zhimg.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,zhuihd.com,HomeLand🇨🇳
+  - DOMAIN,download.jetbrains.com,HomeLand🇨🇳
+  - DOMAIN-SUFFIX,local,HomeLand🇨🇳
+  - IP-CIDR,192.168.0.0/16,HomeLand🇨🇳
+  - IP-CIDR,10.0.0.0/8,HomeLand🇨🇳
+  - IP-CIDR,172.16.0.0/12,HomeLand🇨🇳
+  - IP-CIDR,127.0.0.0/8,HomeLand🇨🇳
+  - IP-CIDR,100.64.0.0/10,HomeLand🇨🇳
+  # > IP数据库匹配
+  - GEOIP,JP,霓虹国🇯🇵
+  
+  - DOMAIN-SUFFIX,xboxlive.com,Final🌏
+  - DOMAIN-SUFFIX,pscp.tv,Final🌏
+  - DOMAIN-SUFFIX,periscope.tv,Final🌏
+  - DOMAIN-SUFFIX,t.co,Final🌏
+  - DOMAIN-SUFFIX,twimg.co,Final🌏
+  - DOMAIN-SUFFIX,twimg.com,Final🌏
+  - DOMAIN-SUFFIX,twitpic.com,Final🌏
+  - DOMAIN-SUFFIX,vine.co,Final🌏
+  - DOMAIN-KEYWORD,twitter,Final🌏
+  - DOMAIN-SUFFIX,4shared.com,Final🌏
+  - DOMAIN-SUFFIX,520cc.cc,Final🌏
+  - DOMAIN-SUFFIX,881903.com,Final🌏
+  - DOMAIN-SUFFIX,9cache.com,Final🌏
+  - DOMAIN-SUFFIX,9gag.com,Final🌏
+  - DOMAIN-SUFFIX,abc.com,Final🌏
+  - DOMAIN-SUFFIX,abc.net.au,Final🌏
+  - DOMAIN-SUFFIX,abebooks.com,Final🌏
+  - DOMAIN-SUFFIX,apigee.com,Final🌏
+  - DOMAIN-SUFFIX,apk-dl.com,Final🌏
+  - DOMAIN-SUFFIX,apkfind.com,Final🌏
+  - DOMAIN-SUFFIX,apkmirror.com,Final🌏
+  - DOMAIN-SUFFIX,apkmonk.com,Final🌏
+  - DOMAIN-SUFFIX,apkpure.com,Final🌏
+  - DOMAIN-SUFFIX,aptoide.com,Final🌏
+  - DOMAIN-SUFFIX,archive.is,Final🌏
+  - DOMAIN-SUFFIX,archive.org,Final🌏
+  - DOMAIN-SUFFIX,arte.tv,Final🌏
+  - DOMAIN-SUFFIX,artstation.com,Final🌏
+  - DOMAIN-SUFFIX,arukas.io,Final🌏
+  - DOMAIN-SUFFIX,ask.com,Final🌏
+  - DOMAIN-SUFFIX,avgle.com,Final🌏
+  - DOMAIN-SUFFIX,badoo.com,Final🌏
+  - DOMAIN-SUFFIX,bandwagonhost.com,Final🌏
+  - DOMAIN-SUFFIX,bbc.com,Final🌏
+  - DOMAIN-SUFFIX,behance.net,Final🌏
+  - DOMAIN-SUFFIX,bibox.com,Final🌏
+  - DOMAIN-SUFFIX,biggo.com.tw,Final🌏
+  - DOMAIN-SUFFIX,binance.com,Final🌏
+  - DOMAIN-SUFFIX,bitcointalk.org,Final🌏
+  - DOMAIN-SUFFIX,bitfinex.com,Final🌏
+  - DOMAIN-SUFFIX,bitmex.com,Final🌏
+  - DOMAIN-SUFFIX,bit-z.com,Final🌏
+  - DOMAIN-SUFFIX,bloglovin.com,Final🌏
+  - DOMAIN-SUFFIX,bloomberg.cn,Final🌏
+  - DOMAIN-SUFFIX,bloomberg.com,Final🌏
+  - DOMAIN-SUFFIX,blubrry.com,Final🌏
+  - DOMAIN-SUFFIX,book.com.tw,Final🌏
+  - DOMAIN-SUFFIX,books.com.tw,Final🌏
+  - DOMAIN-SUFFIX,box.com,Final🌏
+  - DOMAIN-SUFFIX,businessinsider.com,Final🌏
+  - DOMAIN-SUFFIX,bwh1.net,Final🌏
+  - DOMAIN-SUFFIX,castbox.fm,Final🌏
+  - DOMAIN-SUFFIX,cbc.ca,Final🌏
+  - DOMAIN-SUFFIX,cccat.cc,Final🌏
+  - DOMAIN-SUFFIX,cdw.com,Final🌏
+  - DOMAIN-SUFFIX,change.org,Final🌏
+  - DOMAIN-SUFFIX,ck101.com,Final🌏
+  - DOMAIN-SUFFIX,clarionproject.org,Final🌏
+  - DOMAIN-SUFFIX,clyp.it,Final🌏
+  - DOMAIN-SUFFIX,cna.com.tw,Final🌏
+  - DOMAIN-SUFFIX,comparitech.com,Final🌏
+  - DOMAIN-SUFFIX,crucial.com,Final🌏
+  - DOMAIN-SUFFIX,cts.com.tw,Final🌏
+  - DOMAIN-SUFFIX,cw.com.tw,Final🌏
+  - DOMAIN-SUFFIX,cyberctm.com,Final🌏
+  - DOMAIN-SUFFIX,dailymotion.com,Final🌏
+  - DOMAIN-SUFFIX,dailyview.tw,Final🌏
+  - DOMAIN-SUFFIX,daum.net,Final🌏
+  - DOMAIN-SUFFIX,daumcdn.net,Final🌏
+  - DOMAIN-SUFFIX,dcard.tw,Final🌏
+  - DOMAIN-SUFFIX,deepdiscount.com,Final🌏
+  - DOMAIN-SUFFIX,depositphotos.com,Final🌏
+  - DOMAIN-SUFFIX,deviantart.com,Final🌏
+  - DOMAIN-SUFFIX,disconnect.me,Final🌏
+  - DOMAIN-SUFFIX,discordapp.com,Final🌏
+  - DOMAIN-SUFFIX,discordapp.net,Final🌏
+  - DOMAIN-SUFFIX,disqus.com,Final🌏
+  - DOMAIN-SUFFIX,dns2go.com,Final🌏
+  - DOMAIN-SUFFIX,dowjones.com,Final🌏
+  - DOMAIN-SUFFIX,dropbox.com,Final🌏
+  - DOMAIN-SUFFIX,dropboxusercontent.com,Final🌏
+  - DOMAIN-SUFFIX,duckduckgo.com,Final🌏
+  - DOMAIN-SUFFIX,dw.com,Final🌏
+  - DOMAIN-SUFFIX,dynu.com,Final🌏
+  - DOMAIN-SUFFIX,earthcam.com,Final🌏
+  - DOMAIN-SUFFIX,ebookservice.tw,Final🌏
+  - DOMAIN-SUFFIX,economist.com,Final🌏
+  - DOMAIN-SUFFIX,edgecastcdn.net,Final🌏
+  - DOMAIN-SUFFIX,elpais.com,Final🌏
+  - DOMAIN-SUFFIX,enanyang.my,Final🌏
+  - DOMAIN-SUFFIX,esoir.be,Final🌏
+  - DOMAIN-SUFFIX,euronews.com,Final🌏
+  - DOMAIN-SUFFIX,feedly.com,Final🌏
+  - DOMAIN-SUFFIX,firech.at,Final🌏
+  - DOMAIN-SUFFIX,flickr.com,Final🌏
+  - DOMAIN-SUFFIX,flitto.com,Final🌏
+  - DOMAIN-SUFFIX,foreignpolicy.com,Final🌏
+  - DOMAIN-SUFFIX,friday.tw,Final🌏
+  - DOMAIN-SUFFIX,ftchinese.com,Final🌏
+  - DOMAIN-SUFFIX,gate.io,Final🌏
+  - DOMAIN-SUFFIX,getlantern.org,Final🌏
+  - DOMAIN-SUFFIX,getsync.com,Final🌏
+  - DOMAIN-SUFFIX,globalvoices.org,Final🌏
+  - DOMAIN-SUFFIX,goodreads.com,Final🌏
+  - DOMAIN-SUFFIX,gov,Final🌏
+  - DOMAIN-SUFFIX,gov.tw,Final🌏
+  - DOMAIN-SUFFIX,gumroad.com,Final🌏
+  - DOMAIN-SUFFIX,hbg.com,Final🌏
+  - DOMAIN-SUFFIX,heroku.com,Final🌏
+  - DOMAIN-SUFFIX,hightail.com,Final🌏
+  - DOMAIN-SUFFIX,hk01.com,Final🌏
+  - DOMAIN-SUFFIX,hkbf.org,Final🌏
+  - DOMAIN-SUFFIX,hkbookcity.com,Final🌏
+  - DOMAIN-SUFFIX,hkej.com,Final🌏
+  - DOMAIN-SUFFIX,hket.com,Final🌏
+  - DOMAIN-SUFFIX,hkgolden.com,Final🌏
+  - DOMAIN-SUFFIX,hootsuite.com,Final🌏
+  - DOMAIN-SUFFIX,hudson.org,Final🌏
+  - DOMAIN-SUFFIX,hyread.com.tw,Final🌏
+  - DOMAIN-SUFFIX,ibtimes.com,Final🌏
+  - DOMAIN-SUFFIX,i-cable.com,Final🌏
+  - DOMAIN-SUFFIX,icij.org,Final🌏
+  - DOMAIN-SUFFIX,icoco.com,Final🌏
+  - DOMAIN-SUFFIX,imgur.com,Final🌏
+  - DOMAIN-SUFFIX,initiummall.com,Final🌏
+  - DOMAIN-SUFFIX,insecam.org,Final🌏
+  - DOMAIN-SUFFIX,ipfs.io,Final🌏
+  - DOMAIN-SUFFIX,issuu.com,Final🌏
+  - DOMAIN-SUFFIX,istockphoto.com,Final🌏
+  - DOMAIN-SUFFIX,japantimes.co.jp,Final🌏
+  - DOMAIN-SUFFIX,jiji.com,Final🌏
+  - DOMAIN-SUFFIX,jinx.com,Final🌏
+  - DOMAIN-SUFFIX,jkforum.net,Final🌏
+  - DOMAIN-SUFFIX,joinmastodon.org,Final🌏
+  - DOMAIN-SUFFIX,justpaste.it,Final🌏
+  - DOMAIN-SUFFIX,kakao.com,Final🌏
+  - DOMAIN-SUFFIX,kakaocorp.com,Final🌏
+  - DOMAIN-SUFFIX,kik.com,Final🌏
+  - DOMAIN-SUFFIX,kobo.com,Final🌏
+  - DOMAIN-SUFFIX,kobobooks.com,Final🌏
+  - DOMAIN-SUFFIX,kodingen.com,Final🌏
+  - DOMAIN-SUFFIX,lemonde.fr,Final🌏
+  - DOMAIN-SUFFIX,lepoint.fr,Final🌏
+  - DOMAIN-SUFFIX,lihkg.com,Final🌏
+  - DOMAIN-SUFFIX,listennotes.com,Final🌏
+  - DOMAIN-SUFFIX,livestream.com,Final🌏
+  - DOMAIN-SUFFIX,logmein.com,Final🌏
+  - DOMAIN-SUFFIX,mailchimp.com,Final🌏
+  - DOMAIN-SUFFIX,marc.info,Final🌏
+  - DOMAIN-SUFFIX,matters.news,Final🌏
+  - DOMAIN-SUFFIX,medium.com,Final🌏
+  - DOMAIN-SUFFIX,mega.nz,Final🌏
+  - DOMAIN-SUFFIX,mil,Final🌏
+  - DOMAIN-SUFFIX,mingpao.com,Final🌏
+  - DOMAIN-SUFFIX,mobile01.com,Final🌏
+  - DOMAIN-SUFFIX,myspace.com,Final🌏
+  - DOMAIN-SUFFIX,myspacecdn.com,Final🌏
+  - DOMAIN-SUFFIX,nanyang.com,Final🌏
+  - DOMAIN-SUFFIX,naver.com,Final🌏
+  - DOMAIN-SUFFIX,newstapa.org,Final🌏
+  - DOMAIN-SUFFIX,nikkei.com,Final🌏
+  - DOMAIN-SUFFIX,nofile.io,Final🌏
+  - DOMAIN-SUFFIX,now.com,Final🌏
+  - DOMAIN-SUFFIX,nrk.no,Final🌏
+  - DOMAIN-SUFFIX,nyt.com,Final🌏
+  - DOMAIN-SUFFIX,nytchina.com,Final🌏
+  - DOMAIN-SUFFIX,nytcn.me,Final🌏
+  - DOMAIN-SUFFIX,nytco.com,Final🌏
+  - DOMAIN-SUFFIX,nytimes.com,Final🌏
+  - DOMAIN-SUFFIX,nytimg.com,Final🌏
+  - DOMAIN-SUFFIX,nytlog.com,Final🌏
+  - DOMAIN-SUFFIX,nytstyle.com,Final🌏
+  - DOMAIN-SUFFIX,okex.com,Final🌏
+  - DOMAIN-SUFFIX,on.cc,Final🌏
+  - DOMAIN-SUFFIX,orientaldaily.com.my,Final🌏
+  - DOMAIN-SUFFIX,overcast.fm,Final🌏
+  - DOMAIN-SUFFIX,paltalk.com,Final🌏
+  - DOMAIN-SUFFIX,pbxes.com,Final🌏
+  - DOMAIN-SUFFIX,pcdvd.com.tw,Final🌏
+  - DOMAIN-SUFFIX,pchome.com.tw,Final🌏
+  - DOMAIN-SUFFIX,pcloud.com,Final🌏
+  - DOMAIN-SUFFIX,picacomic.com,Final🌏
+  - DOMAIN-SUFFIX,pinimg.com,Final🌏
+  - DOMAIN-SUFFIX,pixiv.net,Final🌏
+  - DOMAIN-SUFFIX,player.fm,Final🌏
+  - DOMAIN-SUFFIX,plurk.com,Final🌏
+  - DOMAIN-SUFFIX,po18.tw,Final🌏
+  - DOMAIN-SUFFIX,prism-break.org,Final🌏
+  - DOMAIN-SUFFIX,proxifier.com,Final🌏
+  - DOMAIN-SUFFIX,pts.org.tw,Final🌏
+  - DOMAIN-SUFFIX,pubu.com.tw,Final🌏
+  - DOMAIN-SUFFIX,pubu.tw,Final🌏
+  - DOMAIN-SUFFIX,pureapk.com,Final🌏
+  - DOMAIN-SUFFIX,quora.com,Final🌏
+  - DOMAIN-SUFFIX,quoracdn.net,Final🌏
+  - DOMAIN-SUFFIX,readingtimes.com.tw,Final🌏
+  - DOMAIN-SUFFIX,readmoo.com,Final🌏
+  - DOMAIN-SUFFIX,reddit.com,Final🌏
+  - DOMAIN-SUFFIX,redditmedia.com,Final🌏
+  - DOMAIN-SUFFIX,resilio.com,Final🌏
+  - DOMAIN-SUFFIX,reuters.com,Final🌏
+  - DOMAIN-SUFFIX,rfi.fr,Final🌏
+  - DOMAIN-SUFFIX,roadshow.hk,Final🌏
+  - DOMAIN-SUFFIX,scmp.com,Final🌏
+  - DOMAIN-SUFFIX,scribd.com,Final🌏
+  - DOMAIN-SUFFIX,seatguru.com,Final🌏
+  - DOMAIN-SUFFIX,shadowsocks.org,Final🌏
+  - DOMAIN-SUFFIX,shopee.tw,Final🌏
+  - DOMAIN-SUFFIX,slideshare.net,Final🌏
+  - DOMAIN-SUFFIX,softfamous.com,Final🌏
+  #- DOMAIN-SUFFIX,soundcloud.com,Final🌏
+  - DOMAIN-SUFFIX,startpage.com,Final🌏
+  - DOMAIN-SUFFIX,steamcommunity.com,Final🌏
+  - DOMAIN-SUFFIX,steemit.com,Final🌏
+  - DOMAIN-SUFFIX,steemitwallet.com,Final🌏
+  - DOMAIN-SUFFIX,t66y.com,Final🌏
+  - DOMAIN-SUFFIX,tapatalk.com,Final🌏
+  - DOMAIN-SUFFIX,teco-hk.org,Final🌏
+  - DOMAIN-SUFFIX,teco-mo.org,Final🌏
+  - DOMAIN-SUFFIX,teddysun.com,Final🌏
+  - DOMAIN-SUFFIX,theguardian.com,Final🌏
+  - DOMAIN-SUFFIX,theinitium.com,Final🌏
+  - DOMAIN-SUFFIX,tineye.com,Final🌏
+  - DOMAIN-SUFFIX,torproject.org,Final🌏
+  - DOMAIN-SUFFIX,tumblr.com,Final🌏
+  - DOMAIN-SUFFIX,turbobit.net,Final🌏
+  - DOMAIN-SUFFIX,tutanota.com,Final🌏
+  - DOMAIN-SUFFIX,tvboxnow.com,Final🌏
+  - DOMAIN-SUFFIX,udn.com,Final🌏
+  - DOMAIN-SUFFIX,unseen.is,Final🌏
+  - DOMAIN-SUFFIX,upmedia.mg,Final🌏
+  - DOMAIN-SUFFIX,uptodown.com,Final🌏
+  - DOMAIN-SUFFIX,ustream.tv,Final🌏
+  - DOMAIN-SUFFIX,uwants.com,Final🌏
+  - DOMAIN-SUFFIX,v2ray.com,Final🌏
+  - DOMAIN-SUFFIX,viber.com,Final🌏
+  - DOMAIN-SUFFIX,videopress.com,Final🌏
+  - DOMAIN-SUFFIX,vimeo.com,Final🌏
+  - DOMAIN-SUFFIX,voachinese.com,Final🌏
+  - DOMAIN-SUFFIX,voanews.com,Final🌏
+  - DOMAIN-SUFFIX,voxer.com,Final🌏
+  - DOMAIN-SUFFIX,vzw.com,Final🌏
+  - DOMAIN-SUFFIX,w3schools.com,Final🌏
+  - DOMAIN-SUFFIX,washingtonpost.com,Final🌏
+  - DOMAIN-SUFFIX,wattpad.com,Final🌏
+  - DOMAIN-SUFFIX,whoer.net,Final🌏
+  - DOMAIN-SUFFIX,wikimapia.org,Final🌏
+  - DOMAIN-SUFFIX,wikipedia.org,Final🌏
+  - DOMAIN-SUFFIX,winudf.com,Final🌏
+  - DOMAIN-SUFFIX,wire.com,Final🌏
+  - DOMAIN-SUFFIX,wordpress.com,Final🌏
+  - DOMAIN-SUFFIX,workflow.is,Final🌏
+  - DOMAIN-SUFFIX,worldcat.org,Final🌏
+  - DOMAIN-SUFFIX,wsj.com,Final🌏
+  - DOMAIN-SUFFIX,wsj.net,Final🌏
+  - DOMAIN-SUFFIX,xhamster.com,Final🌏
+  - DOMAIN-SUFFIX,xnxx.com,Final🌏
+  - DOMAIN-SUFFIX,xvideos.com,Final🌏
+  - DOMAIN-SUFFIX,yahoo.com,Final🌏
+  - DOMAIN-SUFFIX,ycombinator.com,Final🌏
+  - DOMAIN-SUFFIX,yesasia.com,Final🌏
+  - DOMAIN-SUFFIX,yes-news.com,Final🌏
+  - DOMAIN-SUFFIX,you-get.org,Final🌏
+  - DOMAIN-SUFFIX,zaobao.com,Final🌏
+  - DOMAIN-SUFFIX,zb.com,Final🌏
+  - DOMAIN-SUFFIX,zello.com,Final🌏
+  - DOMAIN-SUFFIX,zeronet.io,Final🌏
+  - DOMAIN-KEYWORD,github,Final🌏
+  - DOMAIN-KEYWORD,pinterest,Final🌏
+  - DOMAIN-KEYWORD,porn,Final🌏
+  - DOMAIN-KEYWORD,wikileaks,Final🌏
+  - DOMAIN-SUFFIX,apartmentratings.com,Final🌏
+  - DOMAIN-SUFFIX,apartments.com,Final🌏
+  - DOMAIN-SUFFIX,bankmobilevibe.com,Final🌏
+  - DOMAIN-SUFFIX,bing.com,Final🌏
+  - DOMAIN-SUFFIX,booktopia.com.au,Final🌏
+  - DOMAIN-SUFFIX,centauro.com.br,Final🌏
+  - DOMAIN-SUFFIX,clearsurance.com,Final🌏
+  - DOMAIN-SUFFIX,costco.com,Final🌏
+  - DOMAIN-SUFFIX,crackle.com,Final🌏
+  - DOMAIN-SUFFIX,depositphotos.cn,Final🌏
+  - DOMAIN-SUFFIX,dish.com,Final🌏
+  - DOMAIN-SUFFIX,dnvod.tv,Final🌏
+  - DOMAIN-SUFFIX,esurance.com,Final🌏
+  - DOMAIN-SUFFIX,extmatrix.com,Final🌏
+  - DOMAIN-SUFFIX,flipboard.com,Final🌏
+  - DOMAIN-SUFFIX,fnac.be,Final🌏
+  - DOMAIN-SUFFIX,fnac.com,Final🌏
+  - DOMAIN-SUFFIX,funkyimg.com,Final🌏
+  - DOMAIN-SUFFIX,fxnetworks.com,Final🌏
+  - DOMAIN-SUFFIX,gettyimages.com,Final🌏
+  - DOMAIN-SUFFIX,go.com,Final🌏
+  - DOMAIN-SUFFIX,here.com,Final🌏
+  - DOMAIN-SUFFIX,jcpenney.com,Final🌏
+  - DOMAIN-SUFFIX,jiehua.tv,Final🌏
+  - DOMAIN-SUFFIX,kknews.cc,Final🌏
+  - DOMAIN-SUFFIX,mailfence.com,Final🌏
+  - DOMAIN-SUFFIX,nationwide.com,Final🌏
+  - DOMAIN-SUFFIX,nbc.com,Final🌏
+  - DOMAIN-SUFFIX,nexon.com,Final🌏
+  - DOMAIN-SUFFIX,nordstrom.com,Final🌏
+  - DOMAIN-SUFFIX,nordstromimage.com,Final🌏
+  - DOMAIN-SUFFIX,nordstromrack.com,Final🌏
+  - DOMAIN-SUFFIX,read01.com,Final🌏
+  - DOMAIN-SUFFIX,superpages.com,Final🌏
+  - DOMAIN-SUFFIX,target.com,Final🌏
+  - DOMAIN-SUFFIX,thinkgeek.com,Final🌏
+  - DOMAIN-SUFFIX,tracfone.com,Final🌏
+  - DOMAIN-SUFFIX,vevo.com,Final🌏
+  # - DOMAIN-SUFFIX,vk.com,Final🌏
+  - DOMAIN-SUFFIX,vsco.co,Final🌏
+  - DOMAIN-SUFFIX,xfinity.com,Final🌏
+  - DOMAIN-SUFFIX,zattoo.com,Final🌏
+  - DOMAIN-SUFFIX,1drv.com,Final🌏
+  - DOMAIN-SUFFIX,1drv.ms,Final🌏
+  - DOMAIN-SUFFIX,live.com,Final🌏
+  - DOMAIN-SUFFIX,live.net,Final🌏
+  - DOMAIN-SUFFIX,livefilestore.com,Final🌏
+  - DOMAIN-SUFFIX,storage.msn.com,Final🌏
+  - DOMAIN-SUFFIX,0rz.tw,Final🌏
+  - DOMAIN-SUFFIX,4bluestones.biz,Final🌏
+  - DOMAIN-SUFFIX,9bis.net,Final🌏
+  - DOMAIN-SUFFIX,allconnected.co,Final🌏
+  - DOMAIN-SUFFIX,amazonaws.com,Final🌏
+  - DOMAIN-SUFFIX,aol.com,Final🌏
+  - DOMAIN-SUFFIX,bcc.com.tw,Final🌏
+  - DOMAIN-SUFFIX,bit.ly,Final🌏
+  - DOMAIN-SUFFIX,bitshare.com,Final🌏
+  - DOMAIN-SUFFIX,broadcast.co.nz,Final🌏
+  - DOMAIN-SUFFIX,camfrog.com,Final🌏
+  - DOMAIN-SUFFIX,cfos.de,Final🌏
+  - DOMAIN-SUFFIX,citypopulation.de,Final🌏
+  - DOMAIN-SUFFIX,cloudfront.net,Final🌏
+  - DOMAIN-SUFFIX,ctitv.com.tw,Final🌏
+  - DOMAIN-SUFFIX,cuhk.edu.hk,Final🌏
+  - DOMAIN-SUFFIX,cusu.hk,Final🌏
+  - DOMAIN-SUFFIX,discuss.com.hk,Final🌏
+  - DOMAIN-SUFFIX,dropboxapi.com,Final🌏
+  - DOMAIN-SUFFIX,duolingo.cn,Final🌏
+  - DOMAIN-SUFFIX,edditstatic.com,Final🌏
+  - DOMAIN-SUFFIX,flickriver.com,Final🌏
+  - DOMAIN-SUFFIX,focustaiwan.tw,Final🌏
+  - DOMAIN-SUFFIX,free.fr,Final🌏
+  - DOMAIN-SUFFIX,gigacircle.com,Final🌏
+  - DOMAIN-SUFFIX,hk-pub.com,Final🌏
+  - DOMAIN-SUFFIX,hosting.co.uk,Final🌏
+  - DOMAIN-SUFFIX,hwcdn.net,Final🌏
+  - DOMAIN-SUFFIX,iphone4hongkong.com,Final🌏
+  - DOMAIN-SUFFIX,iphonetaiwan.org,Final🌏
+  - DOMAIN-SUFFIX,iptvbin.com,Final🌏
+  - DOMAIN-SUFFIX,jtvnw.net,Final🌏
+  - DOMAIN-SUFFIX,linksalpha.com,Final🌏
+  - DOMAIN-SUFFIX,manyvids.com,Final🌏
+  - DOMAIN-SUFFIX,myactimes.com,Final🌏
+  - DOMAIN-SUFFIX,newsblur.com,Final🌏
+  - DOMAIN-SUFFIX,now.im,Final🌏
+  - DOMAIN-SUFFIX,nowe.com,Final🌏
+  - DOMAIN-SUFFIX,redditlist.com,Final🌏
+  - DOMAIN-SUFFIX,signal.org,Final🌏
+  - DOMAIN-SUFFIX,smartmailcloud.com,Final🌏
+  - DOMAIN-SUFFIX,sparknotes.com,Final🌏
+  - DOMAIN-SUFFIX,streetvoice.com,Final🌏
+  - DOMAIN-SUFFIX,supertop.co,Final🌏
+  - DOMAIN-SUFFIX,tv.com,Final🌏
+  - DOMAIN-SUFFIX,typepad.com,Final🌏
+  - DOMAIN-SUFFIX,udnbkk.com,Final🌏
+  - DOMAIN-SUFFIX,urbanairship.com,Final🌏
+  - DOMAIN-SUFFIX,whispersystems.org,Final🌏
+  - DOMAIN-SUFFIX,wikia.com,Final🌏
+  - DOMAIN-SUFFIX,wn.com,Final🌏
+  - DOMAIN-SUFFIX,wolframalpha.com,Final🌏
+  - DOMAIN-SUFFIX,x-art.com,Final🌏
+  - DOMAIN-SUFFIX,yimg.com,Final🌏
+  - GEOIP,CN,HomeLand🇨🇳
+  - GEOIP,RU,乌拉🇷🇺
+  - MATCH,Final🌏
+
+
+  # VK
+  # - DOMAIN-SUFFIX,vk.com,VK🥗
+  # - DOMAIN-SUFFIX,vk.me,VK🥗
+  # - DOMAIN-SUFFIX,boom.ru,VK🥗
+  # - DOMAIN-SUFFIX,um-agency.com,VK🥗
+  # - DOMAIN-SUFFIX,my.com,VK🥗
+  # - DOMAIN-SUFFIX,userapi.com,VK🥗
+  # - DOMAIN-SUFFIX,vk-cdn.net,VK🥗
+  # - DOMAIN-SUFFIX,vk-portal.net,VK🥗
+  # - DOMAIN-SUFFIX,mail.ru,VK🥗
+  #- DOMAIN,www.tns-counter.ru,VK🥗
+  # - DOMAIN-KEYWORD,vkvd,VK🥗
