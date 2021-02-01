@@ -5,8 +5,10 @@ payload:
   - DOMAIN,atv-ps.amazon.com
   - DOMAIN,fls-na.amazon.com
   - DOMAIN-SUFFIX,media-amazon.com
+  -DOMAIN-SUFFIX,ssl-images-amazon.com
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,aiv-delivery.net
+  -DOMAIN-SUFFIX,amazon.co.uk
   - DOMAIN-SUFFIX,amazon.co.jp
   - DOMAIN-SUFFIX,amazon.com
   - DOMAIN-SUFFIX,s3.amazonaws.com
