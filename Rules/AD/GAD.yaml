@@ -1,0 +1,145 @@
+payload:
+  # 跟踪器 Track & Privacy
+  - DOMAIN-SUFFIX,cnzz.com,REJECT
+  - DOMAIN,m.reachmax.cn,REJECT
+  - DOMAIN,track.tiara.daum.net,REJECT
+  - DOMAIN,track.tiara.kakao.com,REJECT
+  - DOMAIN,zgsdk.zhugeio.com,REJECT
+  # > 知乎
+  - DOMAIN,appcloud2.zhihu.com,REJECT
+  - DOMAIN,appcloud2.in.zhihu.com,REJECT
+  - DOMAIN,sugar.zhihu.com,REJECT
+  - DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
+  - IP-CIDR,118.89.204.198/32,REJECT,no-resolve
+  # > 51.LA
+  - DOMAIN,js.users.51.la,REJECT
+  - DOMAIN,mc.51.la,REJECT
+  - DOMAIN,wc.51.la,REJECT
+  # > 58
+  - DOMAIN,track.58.com,REJECT
+  - DOMAIN,tracklog.58.com,REJECT
+  # > 百度
+  - DOMAIN,hm.baidu.com,REJECT
+  - DOMAIN,hmma.baidu.com,REJECT
+  - DOMAIN,gsp0.baidu.com,REJECT
+  - DOMAIN,als.baidu.com,REJECT
+  - DOMAIN,nsclick.baidu.com,REJECT
+  # > 腾讯
+  - DOMAIN-SUFFIX,trace.qq.com,REJECT
+  - DOMAIN-SUFFIX,scorecardresearch.com,REJECT
+  - DOMAIN,btrace.qq.com,REJECT
+  - DOMAIN,btrace.video.qq.com,REJECT
+  - DOMAIN,mtrace.qq.com,REJECT
+  - DOMAIN,safebrowsing.urlsec.qq.com,REJECT
+  # > Umeng
+  - DOMAIN-KEYWORD,log.umeng.com,REJECT
+  - DOMAIN-KEYWORD,logs.umeng.com,REJECT
+  - DOMAIN-KEYWORD,logs.umengcloud.com,REJECT
+  # > 字节跳动
+  - DOMAIN,log.byteoversea.com,REJECT
+  - DOMAIN,log.tiktokv.com,REJECT
+  - DOMAIN,log-hl-ipv6.snssdk.com,REJECT
+  - DOMAIN,log-lq.snssdk.com,REJECT
+  - DOMAIN,log-va.tiktokv.com,REJECT
+  - DOMAIN,xlog.snssdk.com,REJECT
+
+    # > 腾讯
+  - DOMAIN-SUFFIX,e.qq.com,REJECT
+  - DOMAIN-SUFFIX,gdt.qq.com,REJECT
+  - DOMAIN-SUFFIX,l.qq.com,REJECT
+  - DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
+  - DOMAIN,adsmind.gdtimg.com,REJECT
+  - DOMAIN,adsmind.tc.qq.com,REJECT
+  - DOMAIN,pgdt.gtimg.cn,REJECT
+  - DOMAIN,pgdt.gtimg.com,REJECT
+  - DOMAIN,pgdt.ugdtimg.com,REJECT
+  - DOMAIN,splashqqlive.gtimg.com,REJECT
+  - DOMAIN,wa.gtimg.com,REJECT
+  - DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+  - DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+  # > 腾讯音乐
+  - DOMAIN,ad.tencentmusic.com,REJECT
+  - DOMAIN,adserviceretry.kugou.com,REJECT
+  - DOMAIN,ads.service.kugou.com,REJECT
+  - DOMAIN,adsfile.bssdlbig.kugou.com,REJECT
+  - DOMAIN,g.koowo.com,REJECT
+  - DOMAIN,kgmobilestat.kugou.com,REJECT
+  - DOMAIN,kgmobilestatbak.kugou.com,REJECT
+  - DOMAIN,mobilelog.kugou.com,REJECT
+  - DOMAIN,mobilead.kuwo.cn,REJECT
+  - DOMAIN,rich.kuwo.cn,REJECT
+  # > 百度
+  - DOMAIN-SUFFIX,cpro.baidu.com,REJECT
+  - DOMAIN-SUFFIX,dbimg.com,REJECT
+  - DOMAIN,afd.baidu.com,REJECT
+  - DOMAIN,als.baidu.com,REJECT
+  - DOMAIN,duclick.baidu.com,REJECT
+  - DOMAIN,mobads-logs.baidu.com,REJECT
+  - DOMAIN,mobads.baidu.com,REJECT
+  - DOMAIN,nsclick.baidu.com,REJECT
+  - DOMAIN,edu-wenku.dbimg.com,REJECT
+  - DOMAIN,fclick.baidu.com,REJECT
+  # > 网易
+  - DOMAIN-SUFFIX,dsp.youdao.com,REJECT
+  - DOMAIN-SUFFIX,union.youdao.com,REJECT
+  - DOMAIN,ad.bn.netease.com,REJECT
+  - DOMAIN,ad.yixin.im,REJECT
+  - DOMAIN,admusicpic.music.126.net,REJECT
+  - DOMAIN,gorgon.youdao.com,REJECT
+  - DOMAIN,iad.g.163.com,REJECT
+  - DOMAIN,iadmat.nosdn.127.net,REJECT
+  - DOMAIN,iadmusicmat.music.126.net,REJECT
+  - DOMAIN,iadmusicmatvideo.music.126.net,REJECT
+  - DOMAIN,impservice.dictapp.youdao.com,REJECT
+  - DOMAIN,impservice.youdao.com,REJECT
+  - DOMAIN,n.3g.163.com,REJECT
+  - DOMAIN,nex.163.com,REJECT
+  - DOMAIN,yt-adp.nosdn.127.net,REJECT
+  - DOMAIN,yt-adp.ws.126.net,REJECT
+  # > 凤凰新媒体
+  - DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
+  - DOMAIN,api.newad.ifeng.com,REJECT
+  - DOMAIN,ifengad.3g.ifeng.com,REJECT
+  # > 新浪
+  - DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
+  - DOMAIN,adimg.uve.weibo.com,REJECT
+  - DOMAIN,adimg.vue.weibo.com,REJECT
+  - DOMAIN,u1.img.mobile.sina.cn,REJECT
+  - DOMAIN,sax.sina.com.cn,REJECT
+  - DOMAIN,saxs.sina.com.cn,REJECT
+  - DOMAIN,saxn.sina.com.cn,REJECT
+  # > Junk 360
+  - DOMAIN,dispatcher.360in.com,REJECT
+  - DOMAIN,ad.360in.com,REJECT
+  - DOMAIN,exp.360in.com,REJECT
+  # > 金山
+  - DOMAIN,ad-stat.ksosoft.com,REJECT
+  - DOMAIN,img.auction-ads.wpscdn.cn,REJECT
+  - DOMAIN,counter.kingsoft.com,REJECT
+  - DOMAIN,counter.ksosoft.com,REJECT
+  - DOMAIN,minfo.wps.cn,REJECT
+  - DOMAIN,mobad.ijinshan.com,REJECT
+  - DOMAIN,ups.ksmobile.net,REJECT
+  - DOMAIN,ws.ksmobile.net,REJECT
+  # > 喜马拉雅
+  - DOMAIN,ad.ximalaya.com,REJECT
+  - DOMAIN,adbs.ximalaya.com,REJECT
+  - DOMAIN,adse.ximalaya.com,REJECT
+  - DOMAIN,adse.wsa.ximalaya.com,REJECT
+  - DOMAIN,adbehavior.wsa.ximalaya.com,REJECT
+  - DOMAIN,adbehavior.ximalaya.com,REJECT
+  - DOMAIN,adsebs.ximalaya.com,REJECT
+  # > 小红书
+  - DOMAIN,ads-img-qc.xhscdn.com,REJECT
+  - DOMAIN,ads-video-qc.xhscdn.com,REJECT
+  - DOMAIN,t-ads.xiaohongshu.com,REJECT
+
+  - DOMAIN-SUFFIX,avxvl.com,REJECT
+  - DOMAIN-SUFFIX,scjav1.com,REJECT
+  - DOMAIN-SUFFIX,phncdn.com,REJECT
+  - DOMAIN-SUFFIX,phprcdn.com,REJECT
+  - DOMAIN-SUFFIX,pornhub.com,REJECT
+  - DOMAIN-SUFFIX,pornhubpremium.com,REJECT
+  - DOMAIN-SUFFIX,jable.tv,REJECT
+  - DOMAIN-SUFFIX,xvideos.com,REJECT
+  - DOMAIN-KEYWORD,jav,REJECT
