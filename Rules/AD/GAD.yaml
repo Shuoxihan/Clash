@@ -134,8 +134,8 @@ payload:
   - DOMAIN,ads-video-qc.xhscdn.com,REJECT
   - DOMAIN,t-ads.xiaohongshu.com,REJECT
 
- # - DOMAIN-SUFFIX,avxvl.com,REJECT
- # - DOMAIN-SUFFIX,scjav1.com,REJECT
+  - DOMAIN-SUFFIX,avxvl.com,REJECT
+  - DOMAIN-SUFFIX,scjav1.com,REJECT
   - DOMAIN-SUFFIX,phncdn.com,REJECT
   - DOMAIN-SUFFIX,phprcdn.com,REJECT
   - DOMAIN-SUFFIX,pornhub.com,REJECT
