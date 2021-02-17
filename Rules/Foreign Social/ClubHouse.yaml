@@ -1,0 +1,9 @@
+payload:
+# ClubHouse
+# user-agent,Clubhouse*
+  - DOMAIN-SUFFIX,clubhouse.com
+  - DOMAIN-SUFFIX,clubhouseapi.com
+  - DOMAIN-SUFFIX,clubhouseprod.s3.amazonaws.com
+  - DOMAIN-SUFFIX,clubhouse.pubnub.com
+  - DOMAIN-SUFFIX,maintainance.joinclubhouse.com
+  - DOMAIN-SUFFIX,ap3.agora.io
