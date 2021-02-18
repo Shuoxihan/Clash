@@ -125,20 +125,18 @@ payload:
   - DOMAIN-KEYWORD,gstatic
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,blogspot
-
-  # > 国内部分修正
-  - DOMAIN,fonts.googleapis.com,DIRECT
-  - DOMAIN,fonts.gstatic.com,DIRECT
-  - DOMAIN,ocsp.pki.goog,DIRECT
-  - DOMAIN,crl.pki.goog,DIRECT
-  - DOMAIN,redirector.c.bigcache.googleapis.com,DIRECT
-  - DOMAIN,redirector.gvt1.com,DIRECT
-  - DOMAIN,safebrowsing.googleapis.com,DIRECT
-  - DOMAIN,safebrowsing-cache.google.com,DIRECT
-  - DOMAIN-SUFFIX,dl.google.com,DIRECT
-  - DOMAIN-SUFFIX,dl.l.google.com,DIRECT
-  - DOMAIN-SUFFIX,google.cn,DIRECT
-  - DOMAIN-SUFFIX,ssl.gstatic.com,DIRECT
-  - DOMAIN-SUFFIX,tools.google.com,DIRECT
-  - DOMAIN-SUFFIX,tools.l.google.com,DIRECT
-  - DOMAIN-SUFFIX,update.googleapis.com,DIRECT
+  # other
+  - DOMAIN,fonts.googleapis.com
+  - DOMAIN,fonts.gstatic.com
+  - DOMAIN,ocsp.pki.goog
+  - DOMAIN,crl.pki.goog
+  - DOMAIN,redirector.c.bigcache.googleapis.com
+  - DOMAIN,redirector.gvt1.com
+  - DOMAIN,safebrowsing.googleapis.com
+  - DOMAIN,safebrowsing-cache.google.com
+  - DOMAIN-SUFFIX,dl.google.com
+  - DOMAIN-SUFFIX,dl.l.google.com
+  - DOMAIN-SUFFIX,ssl.gstatic.com
+  - DOMAIN-SUFFIX,tools.google.com
+  - DOMAIN-SUFFIX,tools.l.google.com
+  - DOMAIN-SUFFIX,update.googleapis.com
