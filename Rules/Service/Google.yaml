@@ -39,18 +39,20 @@ payload:
   - DOMAIN-SUFFIX,whatbrowser.org
   - DOMAIN-SUFFIX,widevine.com
   - DOMAIN-SUFFIX,x.company
-  - DOMAIN-SUFFIX,youtu.be
-  - DOMAIN-SUFFIX,yt.be
-  - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,googleblog.com
   - DOMAIN,scholar.google.com
   - DOMAIN-SUFFIX,madewithcode.com
- #  - DOMAIN,safebrowsing.googleapis.com
+
   # > YouTube
-  - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,youtube.com
   - DOMAIN,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN,yt3.ggpht.com
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,youtube.com
+
   # > Google 翻译
   - DOMAIN,translate.googleapis.com,DIRECT
 
