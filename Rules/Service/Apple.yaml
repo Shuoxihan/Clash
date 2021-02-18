@@ -31,9 +31,9 @@ payload:
   - DOMAIN-SUFFIX,developer.apple.com
 
 # > iCloud
-  - DOMAIN-keyword,icloud
-  - DOMAIN-keyword,icoudo
-  - DOMAIN-keyword,icoudos
+  - DOMAIN-KEYWORD,icloud
+  - DOMAIN-KEYWORD,icoudo
+  - DOMAIN-KEYWORD,icoudos
   - DOMAIN-SUFFIX,applemx-icloud.com
   - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN-SUFFIX,icloud-isupport.com
