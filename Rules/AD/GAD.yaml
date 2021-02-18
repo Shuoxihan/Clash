@@ -9,7 +9,7 @@ payload:
   - DOMAIN,adbehavior.ximalaya.com,REJECT
   - DOMAIN,adsebs.ximalaya.com,REJECT
 
-  - DOMIAN-KEYWORD,jav,REJECT
+  - DOMAIN-KEYWORD,jav,REJECT
   - DOMAIN-SUFFIX,dmm.com,REJECT
   - DOMAIN-SUFFIX,avxvl.com,REJECT
   - DOMAIN-SUFFIX,scjav1.com,REJECT
