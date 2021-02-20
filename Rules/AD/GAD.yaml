@@ -10,6 +10,8 @@ payload:
   - DOMAIN,adsebs.ximalaya.com,REJECT
 
   - DOMAIN-KEYWORD,jav,REJECT
+  - DOMAIN-KEYWORD,porn,REJECT
+  - DOMAIN-KEYWORD,mdapp1,REJECT
   - DOMAIN-SUFFIX,dmm.com,REJECT
   - DOMAIN-SUFFIX,avxvl.com,REJECT
   - DOMAIN-SUFFIX,scjav1.com,REJECT
