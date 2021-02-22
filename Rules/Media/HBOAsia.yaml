@@ -1,5 +1,5 @@
 payload:
-    # > HBO GO
+  # > HBO GO
   # - USER-AGENT,HBO%20GO%20PROD%20HKG*
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,bcbolthboa-a.akamaihd.net
