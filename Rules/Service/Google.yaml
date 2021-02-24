@@ -132,11 +132,12 @@ payload:
   - DOMAIN,crl.pki.goog
   - DOMAIN,redirector.c.bigcache.googleapis.com
   - DOMAIN,redirector.gvt1.com
-  - DOMAIN,safebrowsing-cache.google.com
   - DOMAIN-SUFFIX,dl.google.com
   - DOMAIN-SUFFIX,dl.l.google.com
   - DOMAIN-SUFFIX,ssl.gstatic.com
   - DOMAIN-SUFFIX,tools.google.com
   - DOMAIN-SUFFIX,tools.l.google.com
   - DOMAIN-SUFFIX,update.googleapis.com
+  
   - DOMAIN,safebrowsing.googleapis.com,DIRECT
+  - DOMAIN,safebrowsing-cache.google.com,DIRECT
