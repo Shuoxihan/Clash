@@ -138,6 +138,4 @@ payload:
   - DOMAIN-SUFFIX,tools.google.com
   - DOMAIN-SUFFIX,tools.l.google.com
   - DOMAIN-SUFFIX,update.googleapis.com
-  
-  - DOMAIN,safebrowsing.googleapis.com,DIRECT
-  - DOMAIN,safebrowsing-cache.google.com,DIRECT
+ 
