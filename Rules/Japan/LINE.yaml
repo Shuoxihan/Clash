@@ -42,7 +42,6 @@ payload:
   - IP-CIDR,203.104.136.0/24,no-resolve
   - IP-CIDR,203.104.137.0/24,no-resolve
   - IP-CIDR,203.104.138.0/24,no-resolve
-  - IP-CIDR,203.104.138.138,no-resolve
   - IP-CIDR,203.104.139.0/24,no-resolve
   - IP-CIDR,203.104.140.0/24,no-resolve
   - IP-CIDR,203.104.141.0/24,no-resolve
