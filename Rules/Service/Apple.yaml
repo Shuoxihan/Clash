@@ -108,8 +108,8 @@ payload:
   - DOMAIN-SUFFIX,prod-support.apple-support.akadns.net
 
 #以下内容规则需要通过代理访问
-  - DOMAIN,news-assets.apple.com,PROXY
-  - DOMAIN,news-client.apple.com,Proxy
-  - DOMAIN,news-edge.apple.com,Proxy
-  - DOMAIN,news-events.apple.com,Proxy
-  - DOMAIN-SUFFIX,apple.news,Proxy
+  # - DOMAIN,news-assets.apple.com,PROXY
+  # - DOMAIN,news-client.apple.com,Proxy
+  # - DOMAIN,news-edge.apple.com,Proxy
+  # - DOMAIN,news-events.apple.com,Proxy
+  # - DOMAIN-SUFFIX,apple.news,Proxy
