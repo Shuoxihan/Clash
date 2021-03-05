@@ -43,6 +43,11 @@ payload:
   - DOMAIN-SUFFIX,googleblog.com
   - DOMAIN,scholar.google.com
   - DOMAIN-SUFFIX,madewithcode.com
+  - DOMAIN-SUFFIX,docs.google.com
+  - DOMAIN-SUFFIX,drive.google.com
+  - DOMAIN-SUFFIX,googledrive.com
+  - DOMAIN-KEYWORD,www.google.
+  - DOMAIN,lens.l.google.com  
   # > Google 翻译
   - DOMAIN,translate.googleapis.com,DIRECT
 
