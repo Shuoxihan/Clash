@@ -1,5 +1,6 @@
 payload:
 # > KKBOX
+  - PROCESS-NAME,com.skysoft.kkbox.android
   - DOMAIN-SUFFIX,kfs.io,KKBOX
   - DOMAIN-SUFFIX,kkbox.com,KKBOX
   - DOMAIN-SUFFIX,kkbox.com.tw,KKBOX
