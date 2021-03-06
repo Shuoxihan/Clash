@@ -1,5 +1,9 @@
 payload:
   # > Yandex
+  - PROCESS-NAME,ru.yandex.mail
+  - PROCESS-NAME,ru.yoo.money
+  - PROCESS-NAME,ru.yandex.music
+  - PROCESS-NAME,ru.yandex.key  
   - DOMAIN-SUFFIX,yandex.com
   - DOMAIN-SUFFIX,yandex.ru
   - DOMAIN-SUFFIX,yandex.net
