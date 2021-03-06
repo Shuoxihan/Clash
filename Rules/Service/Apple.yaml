@@ -1,5 +1,6 @@
 payload:
 # = Apple
+  - PROCESS-NAME,com.apple.android.music
 # > Apple Websites
   - DOMAIN-SUFFIX,aaplimg.com
   - DOMAIN-SUFFIX,apple.co
