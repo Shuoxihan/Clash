@@ -1,5 +1,6 @@
 payload:
 # > Facebook
+  - PROCESS-NAME,com.facebook.katana
   - DOMAIN-SUFFIX,facebook.com
   - DOMAIN-SUFFIX,fb.com
   - DOMAIN-SUFFIX,fb.me
