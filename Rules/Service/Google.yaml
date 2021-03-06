@@ -3,7 +3,8 @@ payload:
   - PROCESS-NAME,com.android.vending
   - PROCESS-NAME,com.google.android.gm
   - PROCESS-NAME,com.google.android.apps.docs
-  - PROCESS-NAME,com.google.android.apps.photos    
+  - PROCESS-NAME,com.google.android.apps.photos  
+  - PROCESS-NAME,com.google.android.apps.googlevoice  
   - DOMAIN-SUFFIX,ampproject.org
   - DOMAIN-SUFFIX,265.com
   - DOMAIN-SUFFIX,abc.xyz
