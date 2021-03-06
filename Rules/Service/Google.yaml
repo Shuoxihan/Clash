@@ -1,5 +1,9 @@
 payload:
   # > 域名部分 
+  - PROCESS-NAME,com.android.vending
+  - PROCESS-NAME,com.google.android.gm
+  - PROCESS-NAME,com.google.android.apps.docs
+  - PROCESS-NAME,com.google.android.apps.photos    
   - DOMAIN-SUFFIX,ampproject.org
   - DOMAIN-SUFFIX,265.com
   - DOMAIN-SUFFIX,abc.xyz
