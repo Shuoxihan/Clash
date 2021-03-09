@@ -9,3 +9,6 @@ payload:
   - DOMAIN,ds-linear-abematv.akamaized.net
   - DOMAIN,ds-vod-abematv.akamaized.net
   - DOMAIN,linear-abematv.akamaized.net  
+  - DOMAIN,abm.hayabusa.media
+  - DOMAIN-KEYWORD,abematv.akamaized.net
+  - DOMAIN-KEYWORD,abematv
