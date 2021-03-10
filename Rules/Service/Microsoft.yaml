@@ -1,7 +1,6 @@
 payload:
   # Microsoft
-  - DOMAIN-KEYWORD,1drv
-  - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,aadrm.com
   - DOMAIN-SUFFIX,acompli.com
   - DOMAIN-SUFFIX,acompli.net
@@ -9,19 +8,28 @@ payload:
   - DOMAIN-SUFFIX,akadns.net
   - DOMAIN-SUFFIX,aspnetcdn.com
   - DOMAIN-SUFFIX,assets-yammer.com
+  - DOMAIN-SUFFIX,azure.cn
   - DOMAIN-SUFFIX,azure.com
   - DOMAIN-SUFFIX,azure.net
   - DOMAIN-SUFFIX,azureedge.net
   - DOMAIN-SUFFIX,azurerms.com
   - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,bing.net
   - DOMAIN-SUFFIX,cloudapp.net
   - DOMAIN-SUFFIX,cloudappsecurity.com
+  - DOMAIN-SUFFIX,docs.com
   - DOMAIN-SUFFIX,edgesuite.net
+  - DOMAIN-SUFFIX,fabric.io
   - DOMAIN-SUFFIX,gfx.ms
   - DOMAIN-SUFFIX,hotmail.com
   - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,live.net
+  - DOMAIN-SUFFIX,livefilestore.com
   - DOMAIN-SUFFIX,lync.com
+  - DOMAIN-SUFFIX,mesh.com
+  - DOMAIN-SUFFIX,microsoft-tst.com
+  - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,microsoftonline.com
   - DOMAIN-SUFFIX,msappproxy.net
   - DOMAIN-SUFFIX,msauth.net
   - DOMAIN-SUFFIX,msauthimages.net
@@ -30,6 +38,7 @@ payload:
   - DOMAIN-SUFFIX,msft.net
   - DOMAIN-SUFFIX,msftauth.net
   - DOMAIN-SUFFIX,msftauthimages.net
+  - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftidentity.com
   - DOMAIN-SUFFIX,msidentity.com
   - DOMAIN-SUFFIX,msn.com
@@ -47,10 +56,13 @@ payload:
   - DOMAIN-SUFFIX,onenote.com
   - DOMAIN-SUFFIX,onenote.net
   - DOMAIN-SUFFIX,onestore.ms
+  - DOMAIN-SUFFIX,onmicrosoft.com
   - DOMAIN-SUFFIX,outlook.com
+  - DOMAIN-SUFFIX,outlookgroups.ms
   - DOMAIN-SUFFIX,outlookmobile.com
   - DOMAIN-SUFFIX,phonefactor.net
   - DOMAIN-SUFFIX,public-trust.com
+  - DOMAIN-SUFFIX,s-microsoft.com
   - DOMAIN-SUFFIX,sfbassets.com
   - DOMAIN-SUFFIX,sfx.ms
   - DOMAIN-SUFFIX,sharepoint.com
@@ -58,6 +70,7 @@ payload:
   - DOMAIN-SUFFIX,skype.com
   - DOMAIN-SUFFIX,skypeassets.com
   - DOMAIN-SUFFIX,skypeforbusiness.com
+  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
   - DOMAIN-SUFFIX,staffhub.ms
   - DOMAIN-SUFFIX,svc.ms
   - DOMAIN-SUFFIX,sway-cdn.com
@@ -73,5 +86,15 @@ payload:
   - DOMAIN-SUFFIX,windowsazure.com
   - DOMAIN-SUFFIX,windowsupdate.com
   - DOMAIN-SUFFIX,wunderlist.com
+  - DOMAIN-SUFFIX,xbox.cn
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,xboxlive.cn
+  - DOMAIN-SUFFIX,xboxlive.com
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
+  - DOMAIN-KEYWORD,1drv
+  - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,onedrive
+  - DOMAIN-KEYWORD,skydrive
+  - PROCESS-NAME,onedrive
+  - PROCESS-NAME,onedriveupdater
