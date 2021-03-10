@@ -5,4 +5,7 @@ payload:
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
   - DOMAIN-SUFFIX,linetv.tw
-  - DOMAIN-SUFFIX,profile.line-scdn.net
+  - DOMAIN-SUFFIX,line-scdn.net
+  - DOMAIN-SUFFIX,chocotv.com.tw
+  - DOMAIN-SUFFIX,line-cdn.net
+  - DOMAIN-SUFFIX,line-scdn.net
