@@ -1,5 +1,8 @@
 payload:
   # Microsoft
+  - PROCESS-NAME,onedrive
+  - PROCESS-NAME,onedriveupdater  
+  - DOMAIN-SUFFIX,1drv.com
   - DOMAIN-SUFFIX,a-msedge.net
   - DOMAIN-SUFFIX,a1158.g.akamai.net
   - DOMAIN-SUFFIX,a122.dscg3.akamai.net
@@ -159,6 +162,7 @@ payload:
   - DOMAIN-SUFFIX,latampartneruniversity.com
   - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,live.net
+  - DOMAIN-SUFFIX,livefilestore.com
   - DOMAIN-SUFFIX,livingyourambition.com
   - DOMAIN-SUFFIX,localytics.com
   - DOMAIN-SUFFIX,lync.com
@@ -297,6 +301,7 @@ payload:
   - DOMAIN-SUFFIX,officeppe.net
   - DOMAIN-SUFFIX,omniroot.com
   - DOMAIN-SUFFIX,onecollector.cloudapp.aria
+  - DOMAIN-SUFFIX,onedrive.com
   - DOMAIN-SUFFIX,onenote.com
   - DOMAIN-SUFFIX,onenote.net
   - DOMAIN-SUFFIX,onestore.ms
@@ -341,9 +346,12 @@ payload:
   - DOMAIN-SUFFIX,sfbassets.com
   - DOMAIN-SUFFIX,sfbassets.net
   - DOMAIN-SUFFIX,sfx.ms
+  - DOMAIN-SUFFIX,sharepoint.com
+  - DOMAIN-SUFFIX,sharepointonline.com
   - DOMAIN-SUFFIX,skype.com
   - DOMAIN-SUFFIX,skypeassets.com
   - DOMAIN-SUFFIX,skypeforbusiness.com
+  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
   - DOMAIN-SUFFIX,sprinklesapp.com
   - DOMAIN-SUFFIX,sqlserveronlinux.com
   - DOMAIN-SUFFIX,staffhub.ms
@@ -410,6 +418,7 @@ payload:
   - DOMAIN-SUFFIX,xbx.lv
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
+  - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,applicationinsights
   - DOMAIN-KEYWORD,azure
   - DOMAIN-KEYWORD,azure-dns
@@ -421,11 +430,9 @@ payload:
   - DOMAIN-KEYWORD,bing
   - DOMAIN-KEYWORD,biying
   - DOMAIN-KEYWORD,cosmosdb
-  - DOMAIN-KEYWORD,here
   - DOMAIN-KEYWORD,hotmail
   - DOMAIN-KEYWORD,internetexplorer
   - DOMAIN-KEYWORD,joinms
-  - DOMAIN-KEYWORD,live
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-KEYWORD,microsoft-online
   - DOMAIN-KEYWORD,microsofthouse
@@ -443,9 +450,11 @@ payload:
   - DOMAIN-KEYWORD,msn
   - DOMAIN-KEYWORD,msnewskids
   - DOMAIN-KEYWORD,office
+  - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,onenote
   - DOMAIN-KEYWORD,outlook
   - DOMAIN-KEYWORD,sharepoint
+  - DOMAIN-KEYWORD,skydrive
   - DOMAIN-KEYWORD,skype
   - DOMAIN-KEYWORD,skypeassets
   - DOMAIN-KEYWORD,vfsforgit
