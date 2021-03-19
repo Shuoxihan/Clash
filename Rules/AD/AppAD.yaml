@@ -1150,25 +1150,25 @@ payload:
   - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn
     # 跟踪器 Track & Privacy
   # > 喜马拉雅
-  - DOMAIN,ad.ximalaya.com,REJECT
-  - DOMAIN,adbs.ximalaya.com,REJECT
-  - DOMAIN,adse.ximalaya.com,REJECT
-  - DOMAIN,adse.wsa.ximalaya.com,REJECT
-  - DOMAIN,adbehavior.wsa.ximalaya.com,REJECT
-  - DOMAIN,adbehavior.ximalaya.com,REJECT
-  - DOMAIN,adsebs.ximalaya.com,REJECT
-  - DOMAIN-KEYWORD,jav,REJECT
-  - DOMAIN-KEYWORD,porn,REJECT
-  - DOMAIN-KEYWORD,mdapp1,REJECT
-  - DOMAIN-SUFFIX,avxvl.com,REJECT
-  - DOMAIN-SUFFIX,scjav1.com,REJECT
-  - DOMAIN-SUFFIX,phncdn.com,REJECT
-  - DOMAIN-SUFFIX,phprcdn.com,REJECT
-  - DOMAIN-SUFFIX,pornhub.com,REJECT
-  - DOMAIN-SUFFIX,pornhubpremium.com,REJECT
-  - DOMAIN-SUFFIX,jable.tv,REJECT
-  - DOMAIN-SUFFIX,dmm.com,REJECT
-  - DOMAIN-SUFFIX,xvideos.com,REJECT
+  - DOMAIN,ad.ximalaya.com
+  - DOMAIN,adbs.ximalaya.com
+  - DOMAIN,adse.ximalaya.com
+  - DOMAIN,adse.wsa.ximalaya.com
+  - DOMAIN,adbehavior.wsa.ximalaya.com
+  - DOMAIN,adbehavior.ximalaya.com
+  - DOMAIN,adsebs.ximalaya.com
+  - DOMAIN-KEYWORD,jav
+  - DOMAIN-KEYWORD,porn
+  - DOMAIN-KEYWORD,mdapp1
+  - DOMAIN-SUFFIX,avxvl.com
+  - DOMAIN-SUFFIX,scjav1.com
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,phprcdn.com
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,jable.tv
+  - DOMAIN-SUFFIX,dmm.com
+  - DOMAIN-SUFFIX,xvideos.com
   - DOMAIN-KEYWORD,admarvel
   - DOMAIN-KEYWORD,admaster
   - DOMAIN-KEYWORD,adsage
