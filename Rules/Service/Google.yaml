@@ -50,6 +50,7 @@ payload:
   - DOMAIN-SUFFIX,googleadservices.com
   - DOMAIN-SUFFIX,googleanalytics.com
   - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,googleapis.cn
   - DOMAIN-SUFFIX,googleblog.com
   - DOMAIN-SUFFIX,googledrive.com
   - DOMAIN-SUFFIX,googlemashups.com
