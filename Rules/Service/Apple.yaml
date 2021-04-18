@@ -45,7 +45,6 @@ payload:
   - DOMAIN-SUFFIX,push-apple.com.akadns.net
   - DOMAIN-SUFFIX,prod-support.apple-support.akadns.net
   # >> Other Service
-  - DOMAIN,api.smoot.apple.cn
   # apple cidr
   - IP-CIDR,139.178.128.0/18
   - IP-CIDR,144.178.0.0/19
@@ -74,8 +73,6 @@ payload:
   # > Apple Store
   - DOMAIN,iosapps.itunes.apple.com
   - DOMAIN,osxapps.itunes.apple.com
-  - DOMAIN-SUFFIX,mzstatic.com
-  - DOMAIN-SUFFIX,appsto.re
   # > Apple Resources Server
   - DOMAIN,testflight.apple.com
   - DOMAIN-SUFFIX,appldnld.apple.com
@@ -130,7 +127,6 @@ payload:
   - DOMAIN-SUFFIX,icloudsetup.com
   - DOMAIN-SUFFIX,icloud-sandbox.com
   - DOMAIN-SUFFIX,ios-icloud.com
-  - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,myicloud.net
   - DOMAIN-SUFFIX,mylcloud.net
   - DOMAIN-SUFFIX,wwwicloud.com
@@ -142,7 +138,6 @@ payload:
   - DOMAIN,play-edge.itunes.apple.com
   - DOMAIN-SUFFIX,tv.apple.com
   # Apple News
-  - DOMAIN,apple.comscoreresearch.com
   - DOMAIN,gateway.icloud.com
   - DOMAIN,gspe1-ssl.ls.apple.com
   - DOMAIN,news-assets.apple.com
@@ -160,9 +155,7 @@ payload:
   - DOMAIN,itunes.apple.com
   - DOMAIN,lookup-api.apple.com
   - DOMAIN,sandbox.itunes.apple.com
-  - DOMAIN-SUFFIX,apple-dns.net
   - DOMAIN-SUFFIX,apps.apple.com
-  - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,itunes-apple.com.akadns.net
   # 關鍵字匹配
   - DOMAIN-KEYWORD,apple.com.akadns.net
