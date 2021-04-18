@@ -1,8 +1,11 @@
 payload:
   # > 域名部分 
-  - DOMAIN,lens.l.google.com
+  - DOMAIN-SUFFIX,.bo
   - DOMAIN-SUFFIX,.chrome
+  - DOMAIN-SUFFIX,.co
   - DOMAIN-SUFFIX,.dclk
+  - DOMAIN-SUFFIX,.do
+  - DOMAIN-SUFFIX,.eg
   - DOMAIN-SUFFIX,.gbiz
   - DOMAIN-SUFFIX,.gle
   - DOMAIN-SUFFIX,.gmail
@@ -12,6 +15,8 @@ payload:
   - DOMAIN-SUFFIX,.gt
   - DOMAIN-SUFFIX,.guge
   - DOMAIN-SUFFIX,.hangout
+  - DOMAIN-SUFFIX,.nexus
+  - DOMAIN-SUFFIX,.sg
   - DOMAIN-SUFFIX,.xn--qcka1pmc
   - DOMAIN-SUFFIX,0emm.com
   - DOMAIN-SUFFIX,1e100.net
@@ -20,6 +25,17 @@ payload:
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,466453.com
   - DOMAIN-SUFFIX,abc.xyz
+  - DOMAIN-SUFFIX,adgoogle.net
+  - DOMAIN-SUFFIX,admeld.com
+  - DOMAIN-SUFFIX,admob.com
+  - DOMAIN-SUFFIX,adsense.com
+  - DOMAIN-SUFFIX,adsensecustomsearchads.com
+  - DOMAIN-SUFFIX,adsenseformobileapps.com
+  - DOMAIN-SUFFIX,advertisercommunity.com
+  - DOMAIN-SUFFIX,advertiserscommunity.com
+  - DOMAIN-SUFFIX,adwords-community.com
+  - DOMAIN-SUFFIX,adwords.com
+  - DOMAIN-SUFFIX,adwordsexpress.com
   - DOMAIN-SUFFIX,amp.dev
   - DOMAIN-SUFFIX,ampproject.com
   - DOMAIN-SUFFIX,ampproject.net
@@ -44,13 +60,12 @@ payload:
   - DOMAIN-SUFFIX,baselinestudy.com
   - DOMAIN-SUFFIX,baselinestudy.org
   - DOMAIN-SUFFIX,bazel.build
-  - DOMAIN-SUFFIX,beacons.gvt2.com
-  - DOMAIN-SUFFIX,beacons3.gvt2.com
   - DOMAIN-SUFFIX,bdn.dev
   - DOMAIN-SUFFIX,beatthatquote.com
   - DOMAIN-SUFFIX,blink.org
   - DOMAIN-SUFFIX,blogblog.com
   - DOMAIN-SUFFIX,blogger.com
+  - DOMAIN-SUFFIX,blogspot.com
   - DOMAIN-SUFFIX,brocaproject.com
   - DOMAIN-SUFFIX,brotli.org
   - DOMAIN-SUFFIX,bumpshare.com
@@ -59,9 +74,6 @@ payload:
   - DOMAIN-SUFFIX,bumptop.net
   - DOMAIN-SUFFIX,bumptop.org
   - DOMAIN-SUFFIX,bumptunes.com
-  - DOMAIN-SUFFIX,c.admob.com
-  - DOMAIN-SUFFIX,c.android.clients.google.com
-  - DOMAIN-SUFFIX,cache.pack.google.com
   - DOMAIN-SUFFIX,campuslondon.com
   - DOMAIN-SUFFIX,capitalg.com
   - DOMAIN-SUFFIX,certificate-transparency.dev
@@ -92,16 +104,11 @@ payload:
   - DOMAIN-SUFFIX,coova.org
   - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,crbug.com
-  - DOMAIN-SUFFIX,corp.google.com
-  - DOMAIN-SUFFIX,crl.pki.goog
-  - DOMAIN-SUFFIX,clickserve.dartsearch.net
   - DOMAIN-SUFFIX,creativelab5.com
   - DOMAIN-SUFFIX,crossmediapanel.com
   - DOMAIN-SUFFIX,crr.com
   - DOMAIN-SUFFIX,crrev.com
   - DOMAIN-SUFFIX,cs4hs.com
-  - DOMAIN-SUFFIX,dl.google.com
-  - DOMAIN-SUFFIX,dl.l.google.com
   - DOMAIN-SUFFIX,dart.dev
   - DOMAIN-SUFFIX,dartlang.org
   - DOMAIN-SUFFIX,dartpad.dev
@@ -172,7 +179,7 @@ payload:
   - DOMAIN-SUFFIX,googl.com
   - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,google-syndication.com
-  - DOMAIN-SUFFIX,google.cn
+  - DOMAIN-SUFFIX,google.cat
   - DOMAIN-SUFFIX,google.com
   - DOMAIN-SUFFIX,google.dev
   - DOMAIN-SUFFIX,google.net
@@ -196,8 +203,6 @@ payload:
   - DOMAIN-SUFFIX,googlecompare.co.uk
   - DOMAIN-SUFFIX,googledanmark.com
   - DOMAIN-SUFFIX,googledomains.com
-  - DOMAIN-SUFFIX,docs.google.com
-  - DOMAIN-SUFFIX,drive.google.com
   - DOMAIN-SUFFIX,googledrive.com
   - DOMAIN-SUFFIX,googlee.com
   - DOMAIN-SUFFIX,googleearth.com
@@ -221,6 +226,7 @@ payload:
   - DOMAIN-SUFFIX,googletraveladservices.com
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,googleventures.com
+  - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,googlr.com
   - DOMAIN-SUFFIX,goolge.com
   - DOMAIN-SUFFIX,gooogle.com
@@ -344,10 +350,6 @@ payload:
   - DOMAIN-SUFFIX,tiltbrush.com
   - DOMAIN-SUFFIX,txcloud.net
   - DOMAIN-SUFFIX,txvia.com
-  - DOMAIN-SUFFIX,toolbarqueries.google.com
-  - DOMAIN-SUFFIX,tools.google.com
-  - DOMAIN-SUFFIX,tools.l.google.com
-  - DOMAIN-SUFFIX,update.googleapis.com
   - DOMAIN-SUFFIX,unfiltered.news
   - DOMAIN-SUFFIX,urchin.com
   - DOMAIN-SUFFIX,useplannr.com
@@ -391,34 +393,23 @@ payload:
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
   - DOMAIN-SUFFIX,xplr.co
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,zukunftswerkstatt.de
   - DOMAIN-SUFFIX,zynamics.com
   - DOMAIN-SUFFIX,はじめよう.みんな
   - DOMAIN-SUFFIX,古博.com
   - DOMAIN-SUFFIX,咕果.com
   - DOMAIN-SUFFIX,谷歌.com
-  # Youtube部分
-  - DOMAIN,youtubei.googleapis.com
-  - DOMAIN,yt3.ggpht.com
-  - DOMAIN-SUFFIX,.youtube
-  - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,withyoutube.com
-  - DOMAIN-SUFFIX,youtu.be
-  - DOMAIN-SUFFIX,youtube-nocookie.com
-  - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN-SUFFIX,youtube.tv
-  - DOMAIN-SUFFIX,youtubeeducation.com
-  - DOMAIN-SUFFIX,youtubefanfest.com
-  - DOMAIN-SUFFIX,youtubegaming.com
-  - DOMAIN-SUFFIX,youtubego.co.id
-  - DOMAIN-SUFFIX,youtubego.com
-  - DOMAIN-SUFFIX,youtubego.com.br
-  - DOMAIN-SUFFIX,youtubego.id
-  - DOMAIN-SUFFIX,youtubei.googleapis.com
-  - DOMAIN-SUFFIX,youtubekids.com
-  - DOMAIN-SUFFIX,youtubemobilesupport.com
-  - DOMAIN-SUFFIX,yt.be
-  - DOMAIN-SUFFIX,ytimg.com
+  - IP-CIDR,172.110.32.0/21
+  - IP-CIDR,173.194.0.0/16
+  - IP-CIDR,216.73.80.0/20
+  - IP-CIDR,74.125.0.0/16
+  - IP-CIDR6,2620:120:e000::/40
+  - DOMAIN-SUFFIX,docs.google.com
+  - DOMAIN-SUFFIX,drive.google.com
+  - DOMAIN,lens.l.google.com
   # GoogleFCM 谷歌推送
   # 数量：35条
   - DOMAIN,alt1-mtalk.google.com
@@ -456,11 +447,26 @@ payload:
   - IP-CIDR,173.194.175.188/32
   - IP-CIDR,173.194.218.188/32
   - IP-CIDR,209.85.233.188/32
-  - IP-CIDR,172.110.32.0/21
-  - IP-CIDR,173.194.0.0/16
-  - IP-CIDR,216.73.80.0/20
-  - IP-CIDR,74.125.0.0/16
-  - IP-CIDR6,2620:120:e000::/40
+  # youtube
+  - DOMAIN,youtubei.googleapis.com
+  - DOMAIN,yt3.ggpht.com
+  - DOMAIN-SUFFIX,.youtube
+  - DOMAIN-SUFFIX,withyoutube.com
+  - DOMAIN-SUFFIX,youtube-nocookie.com
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,youtubeeducation.com
+  - DOMAIN-SUFFIX,youtubefanfest.com
+  - DOMAIN-SUFFIX,youtubegaming.com
+  - DOMAIN-SUFFIX,youtubego.co.id
+  - DOMAIN-SUFFIX,youtubego.co.in
+  - DOMAIN-SUFFIX,youtubego.com
+  - DOMAIN-SUFFIX,youtubego.com.br
+  - DOMAIN-SUFFIX,youtubego.id
+  - DOMAIN-SUFFIX,youtubego.in
+  - DOMAIN-SUFFIX,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,youtubekids.com
+  - DOMAIN-SUFFIX,youtubemobilesupport.com
+  - DOMAIN-KEYWORD,youtube
   - DOMAIN-KEYWORD,appspot
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,gmail
@@ -468,5 +474,4 @@ payload:
   - DOMAIN-KEYWORD,googlesource
   - DOMAIN-KEYWORD,gstatic
   - DOMAIN-KEYWORD,recaptcha
-  - DOMAIN-KEYWORD,youtube
   - DOMAIN-KEYWORD,www.google.
