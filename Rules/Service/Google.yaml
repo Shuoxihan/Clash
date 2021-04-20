@@ -388,9 +388,6 @@ payload:
   - DOMAIN-SUFFIX,zukunftswerkstatt.de
   - DOMAIN-SUFFIX,zynamics.com
   - DOMAIN-SUFFIX,はじめよう.みんな
-  - DOMAIN-SUFFIX,古博.com
-  - DOMAIN-SUFFIX,咕果.com
-  - DOMAIN-SUFFIX,谷歌.com
   - IP-CIDR,172.110.32.0/21
   - IP-CIDR,173.194.0.0/16
   - IP-CIDR,216.73.80.0/20
