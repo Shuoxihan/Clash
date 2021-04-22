@@ -1,4 +1,4 @@
-
+## 項目全部遷移至Proxy Tools庫，有需要的請至Proxy Tools倉庫，該庫不久後將被清空！
 ## Clash Rules
 一些自用的Clash分流和去广告规则
 ## Special Thanks
